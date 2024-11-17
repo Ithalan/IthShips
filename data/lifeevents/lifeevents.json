@@ -1,7 +1,7 @@
 [
   {
     "strName" : "CGEncShipIthTSTCargoTugIntro",
-    "strInteraction" : "CGEncShipIthCargoTugIntro",
+    "strInteraction" : "CGEncShipIthTSTCargoTugIntro",
     "fCashRewardMin" : 0.0,
     "fStartATCRange" : 0.0,
     "strStartATC" : "",
