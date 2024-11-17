@@ -1,0 +1,40 @@
+[
+  {
+    "strName" : "CGEncShipIthTSTCargoTugIntro",
+    "strInteraction" : "CGEncShipIthCargoTugIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncShipIthTSTCargoTugTake",
+    "strInteraction" : "CGEncShipIthTSTCargoTugTake",
+    "fCashRewardMin" : 0.0,
+    "fShipMortgage" : 848941.10,
+    "bShipOwned"  : true,
+    "fShipDmgMax" : 0.6,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "OKLG",
+    "strShipRewards" : "CGEncShipbreakerIthTSTCargoTug"
+  },
+  {
+    "strName" : "CGEncShipIthMSSRacerIntro",
+    "strInteraction" : "CGEncShipIthMSSRacerIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncShipIthMSSRacerTake",
+    "strInteraction" : "CGEncShipIthMSSRacerTake",
+    "fCashRewardMin" : 0.0,
+    "fShipMortgage" : 699912.90,
+    "bShipOwned"  : true,
+    "fShipDmgMax" : 0.6,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "OKLG",
+    "strShipRewards" : "CGEncShipbreakerIthMSSRacer"
+  }
+]

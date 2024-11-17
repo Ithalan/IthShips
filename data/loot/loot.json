@@ -1,0 +1,58 @@
+[
+  {
+    "strName" : "CGEncShipbreakerShipEvents",
+    "aCOs"    : [
+      "CGEncShipIthTSTCargoTugIntro=0.05x1|CGEncShipIthMSSRacerIntro=0.05x1|CGEncShipSalvagePodEnduranceIntro=0.075x1|CGEncShipSalvagePodSmallIntro=0.15x1|CGEncShipSalvagePodTestIntro=0.025x1|CGEncShipShuttleSmallIntro=0.125x1|CGEncShipSalvageUtilityPodIntro=0.15x1|CGEncShipSalvageContainerPodIntro=0.15x1|CGEncShipSalvagePodIntro=0.125x1|CGEncShipMakeshiftSalvagePodIntro=0.1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "lifeevent"
+  },
+  {
+    "strName" : "CGEncShipbreakerIthTSTCargoTug",
+    "aCOs"    : [
+      "IthTSTCargoTugTut=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "ship"
+  },
+  {
+    "strName" : "CGEncShipbreakerIthMSSRacer",
+    "aCOs"    : [
+      "IthMSSRacerTut=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "ship"
+  },
+
+  {
+    "strName" : "RandomDerelict",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+      "RandomDerelictSmall=0.25x1|RandomDerelictMedium=0.3x1|RandomDerelictBig=0.3x1|RandomDerelictIth=0.15x1"
+    ],
+    "strType" : "ship"
+  },
+  {
+    "strName" : "RandomDerelictIth",
+    "aCOs"    : [
+      "IthALTPassengerShuttle=0.1x1|IthALTSurveyFlyer=0.05x1|IthALTMedicalTransport=0.05x1|IthMSSRacer=0.1x1|IthMSSFreighter=0.05x1|IthRKLaborBarge=0.1x1|IthRKCourier=0.15x1|IthTSTCargoTug=0.2x1|IthTSTCargoFlyer=0.05x1|IthTSTCargoTransport=0.05x1|IthVHCourier=0.05x1|IthVHPleasureCraft=0.05x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "ship"
+  },
+
+  {
+    "strName" : "RandomShipBrokerOKLG",
+    "aCOs"    : [
+      "IthALTPassengerShuttle=0.012x1|IthALTSurveyFlyer=0.012x1|IthMSSRacer=0.012x1|IthMSSFreighter=0.012x1|IthRKLaborBarge=0.012x1|IthRKCourier=0.024x1|IthTSTCargoTug=0.012x1|IthTSTCargoFlyer=0.012x1|IthTSTCargoTransport=0.012x1|IthVHCourier=0.012x1|IthVHPleasureCraft=0.012x1|Inspection Pod=0.024x1|Katydid=0.024x1|Local Ferry=0.024x1|SCI Retrofit=0.012x1|Light Tug=0.024x1|SalvagePod=0.024x1|SalvagePodSmall=0.024x1|SalvagePodEndurance=0.024x1|ShuttleSmall=0.024x1|ShuttleSmallCargo=0.012x1|ShuttleSmallSleeper=0.012x1|UtilityPod=0.024x1|Royal Flush=0.024x1|LB-77a=0.024x1|TankerPod N2=0.012x1|TankerPod O2=0.012x1|TankerPod Unmarked=0.012x1|TankerPod D2O=0.012x1|TankerPod He-3=0.012x1|Tombolo=0.024x1|Tombolo 2=0.024x1|Myna=0.024x1|Rouncy=0.024x1|Bulk Lifter=0.024x1|Ibex=0.024x1|IbexCargo=0.024x1|CR-53b=0.024x1|Ocelot=0.024x1|Edelweiss=0.024x1|02=0.022x1|02Indy=0.004x1|Mesa=0.012x1|MesaCargo=0.012x1|RF-72m=0.024x1|Coffin=0.012x1|Whistler Hot-Rod=0.012x1|Argute Rapid Courier=0.024x1|Primigenial PY=0.012x1|Halberd=0.022x1|Halberd DANGER=0.004x1|Pequod2=0.024x1|Medium Ferry=0.024x1|Heavy Tug 01=0.024x1|Li Bai Gen II Refit=0.024x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "ship"
+  }
+]

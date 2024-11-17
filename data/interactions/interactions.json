@@ -1,0 +1,51 @@
+[
+  {
+    "strName" : "CGEncShipIthTSTCargoTugIntro",
+    "strTitle" : "Cargo Tug.",
+    "strDesc" : "You come across an advert for a Testudo Ant. It's a small tug usually hauling cargo containers around transport hubs, but it has life support, power and thrusters all the same, and might just be your ticket off OKLG.\n\nOgiso's Register has given this vessel an OSR of \"moderate,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and life support. ",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthTSTCargoTugTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"         : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+  {
+    "strName" : "CGEncShipIthMSSRacerIntro",
+    "strTitle" : "Previously-owned Pleasure Craft.",
+    "strDesc" : "Your efforts attract the attention of a stranger who offers you the opportunity to buy a Mobile Space Systems Pi! It's a small pleasure craft with life support, power and quite a lot of thrusters, something that would normally put it far outside your price range. The seller is willing to give you a good deal due to some \"minor damage\" and a poor reputation that the ship has received under the previous owner, but is unwilling to elaborate.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support. ",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthMSSRacerTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"         : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+
+  {
+    "strName" : "CGEncShipIthTSTCargoTugTake",
+    "strTitle" : "Take Ship",
+    "strDesc" : "You're now the proud owner of a Testudo Ant, and you can now reach some of the outer derelicts beyond the watchful eye of the yard masters.\n\nNow that you're on your own terms, your next move is up to you. Maybe score a valuable part or two for resale, or reuse? Pull down a platinum tier payout on a gig? Or maybe even discover a ship discarded before its time?\n\nWhatever the case, it beats sweating in a suit all day for someone else's profit. Time to get out there and find your future.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "aLootItms"         :
+    [
+      "addus,ItmShipbreakerLoadout"
+    ]
+  },
+  {
+    "strName" : "CGEncShipIthMSSRacerTake",
+    "strTitle" : "Take Ship",
+    "strDesc" : "You're now the proud owner of a Mobile Space Systems Pi, though the seller advices you to get the blood cleaned out of the pilot's chair before sitting down in it. Still, you can now reach some of the outer derelicts beyond the watchful eye of the yard masters.\n\nNow that you're on your own terms, your next move is up to you. Maybe score a valuable part or two for resale, or reuse? Pull down a platinum tier payout on a gig? Or maybe even discover a ship discarded before its time?\n\nWhatever the case, it beats sweating in a suit all day for someone else's profit. Time to get out there and find your future.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "aLootItms"         :
+    [
+      "addus,ItmShipbreakerLoadout"
+    ]
+  }
+]
