@@ -8,6 +8,8 @@ This mod modifies the CGEncShipbreakerShipEvents, RandomDerelict and RandomShipB
 
 If you spot any errors, typos or oversights, feel free to report them and I'll see about correcting them when I'm able.
 
+Thanks to the Mereid System for updating these ships to 0.15!
+
 Installation Instructions: Download as a zip file from the Github repo, then unzip into your Ostranauts mod folder and add the mod name to your loading_order.json
 
 --- Ryokka ---  
