@@ -1,5 +1,13 @@
 [
   {
+    "strName" : "HLVpCGEncIthShipsShipEventsList",
+    "strInteraction" : "HLVpCGEncIthShipsShipEventsList",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
     "strName" : "CGEncShipIthTSTCargoTugIntro",
     "strInteraction" : "CGEncShipIthTSTCargoTugIntro",
     "fCashRewardMin" : 0.0,
