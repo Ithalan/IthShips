@@ -2,7 +2,7 @@
   {
     "strName" : "CGEncShipbreakerShipEvents",
     "aCOs"    : [
-      "CGEncShipIthTSTCargoTugIntro=0.05x1|CGEncShipIthMSSRacerIntro=0.05x1|CGEncShipSalvagePodEnduranceIntro=0.075x1|CGEncShipSalvagePodSmallIntro=0.15x1|CGEncShipSalvagePodTestIntro=0.025x1|CGEncShipShuttleSmallIntro=0.125x1|CGEncShipSalvageUtilityPodIntro=0.15x1|CGEncShipSalvageContainerPodIntro=0.15x1|CGEncShipSalvagePodIntro=0.125x1|CGEncShipMakeshiftSalvagePodIntro=0.1x1"
+      "CGEncShipIthTSTCargoTugIntro=0.08x1|CGEncShipIthMSSRacerIntro=0.04x1|CGEncShipSalvagePodEnduranceIntro=0.14x1|CGEncShipSalvagePodSmallIntro=0.14x1|CGEncShipSalvagePodTestIntro=0.04x1|CGEncShipShuttleSmallIntro=0.14x1|CGEncShipSalvageUtilityPodIntro=0.14x1|CGEncShipSalvageContainerPodIntro=0.14x1|CGEncShipSalvagePodIntro=0.14x1"
     ],
     "aLoots"  : [
     ],

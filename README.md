@@ -1,5 +1,9 @@
 # IthShips
 
+Credits:
+Ithalan
+Mereid System (Ship updates for 0.15)
+
 Adds a variety of new ship models to the game, including a line of models from a new shipmaker with their own unique aesthetic. All ships may spawn as derelicts, with a 15% chance of a ship from this list being used instead of the ships on the base game's list. A selection of the ships may also appear at OLKG's ship broker.
 
 Variants of two of the ships, the Ant and the Pi, may also appear as starter ship options.
@@ -7,8 +11,6 @@ Variants of two of the ships, the Ant and the Pi, may also appear as starter shi
 This mod modifies the CGEncShipbreakerShipEvents, RandomDerelict and RandomShipBrokerOKLG entries in loot.json. If you have other mods that modify these entries, you may experience issues.
 
 If you spot any errors, typos or oversights, feel free to report them and I'll see about correcting them when I'm able.
-
-Thanks to the Mereid System for updating these ships to 0.15!
 
 Installation Instructions: Download as a zip file from the Github repo, then unzip into your Ostranauts mod folder and add the mod name to your loading_order.json
 

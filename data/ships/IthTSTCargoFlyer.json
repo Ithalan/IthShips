@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthTSTCargoFlyer",
-    "strRegID" : "J-W5H",
+    "strRegID" : "E-W43",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 34.02223,
+    "fTimeEngaged"     : 213.8818,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-J-W5H",
+      "strID" : "CO-E-W43",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "J-W5H",
+      "strCondID" : "E-W43",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -36,10 +36,12 @@
         "B-57PS",
         "V-QE2J",
         "V-FL3PS",
-        "J-W5H"
+        "J-W5H",
+        "B-XUB2",
+        "E-W43"
       ],
-      "strFriendlyName" : "CO-J-W5H",
-      "strRegIDLast"    : "J-W5H",
+      "strFriendlyName" : "CO-E-W43",
+      "strRegIDLast"    : "E-W43",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -205,11 +207,19 @@
         "strID"     : "182e8ace-7958-4a52-b75d-e82fbe4e2060"
       },
       {
-        "strName" : "ItmWallWindow1x1Sq",
+        "strName" : "ItmWallTSDO44",
         "fX"      : -7.0,
         "fY"      : 2.0,
         "fRotation" : 0.0,
-        "strID"     : "fe8acafb-b3d3-456f-a46d-5bbe01156168"
+        "strID"     : "fe8acafb-b3d3-456f-a46d-5bbe01156168",
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00187807167293194,
+            "NegativeValue" : false
+          }
+        ]
       },
       {
         "strName" : "ItmWallTSDO44",
@@ -252,13 +262,6 @@
         "fY"      : -4.0,
         "fRotation" : 0.0,
         "strID"     : "86e04163-d7f5-43a1-8797-c5cf620b792f"
-      },
-      {
-        "strName" : "ItmFloorAERO06",
-        "fX"      : -7.0,
-        "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "8415ff40-34e9-4da9-a632-42b0a8361c3e"
       },
       {
         "strName" : "ItmWallTSDO44",
@@ -3548,7 +3551,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00250000374408304,
+            "Amount"   : 0.00250901791515834,
             "NegativeValue" : false
           }
         ]
@@ -3824,25 +3827,53 @@
         ]
       },
       {
-        "strName" : "ItmFloorAERO06",
-        "fX"      : -6.0,
-        "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "ede4ab41-9bdd-4433-b750-43ab975c2041"
-      },
-      {
-        "strName" : "ItmFloorAERO06",
+        "strName" : "ItmSensorOptical01",
         "fX"      : -5.0,
-        "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "b0ebbb08-3f0e-41e5-b457-b373c7d73832"
-      },
-      {
-        "strName" : "ItmFloorAERO06",
-        "fX"      : -4.0,
-        "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "dda33ba9-61b7-4fb7-8729-2fbec9678d42"
+        "fY"      : 2.0,
+        "fRotation" : 0.0,
+        "strID"     : "81d3a7d6-f3d0-4c78-a6d5-be431840b49d",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Sensor",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Sensor"
+            ]
+          },
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
       },
       {
         "strName" : "ItmFloorAERO06",
@@ -3852,18 +3883,26 @@
         "strID"     : "a50e88c0-f78a-47a4-a3ee-3ea1566b0cec"
       },
       {
-        "strName" : "ItmFloorAERO07",
+        "strName" : "ItmFloorAERO06",
         "fX"      : -3.0,
         "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "4993150a-41b4-4d70-bfd4-8883f40a5a00"
+        "fRotation" : 180.0,
+        "strID"     : "e25b41a1-9366-401a-967b-8aef7008a4cf"
       },
       {
-        "strName" : "ItmWallWindow1x1Sq",
+        "strName" : "ItmWallTSDO44",
         "fX"      : -5.0,
         "fY"      : 2.0,
         "fRotation" : 0.0,
-        "strID"     : "c9fb4dd2-e35a-4615-a36a-d05dee0103a9"
+        "strID"     : "c9fb4dd2-e35a-4615-a36a-d05dee0103a9",
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00187519661376694,
+            "NegativeValue" : false
+          }
+        ]
       },
       {
         "strName" : "ItmWallWindow1x1Sq",
@@ -4884,7 +4923,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "J-W5H"
+              "E-W43"
             ]
           },
           {
@@ -4915,24 +4954,24 @@
         "fX"      : -6.0,
         "fY"      : 0.0,
         "fRotation" : 0.0,
-        "strID"     : "67680971-104f-4d15-8cfd-27714b8bdf2e",
+        "strID"     : "3a88e6d3-0510-4308-8fc8-adf49abbc65a",
         "strSlotParentID" : "617d1787-8bc1-41c7-98ec-2b840b41078c"
       },
       {
-        "strName" : "DataVIDMundane01",
+        "strName" : "DataBINPersonalAddressesJadeRabbit",
         "fX"      : -6.0,
         "fY"      : 0.0,
         "fRotation" : 0.0,
-        "strID"     : "78691347-88e0-48a7-a759-2b8563a7e355",
-        "strParentID" : "67680971-104f-4d15-8cfd-27714b8bdf2e"
+        "strID"     : "f85030c0-9207-44cd-88c6-dbbfc3fbb023",
+        "strParentID" : "3a88e6d3-0510-4308-8fc8-adf49abbc65a"
       },
       {
-        "strName" : "DataBINPersonalAddressesVoltaire",
+        "strName" : "DataVIDVlog09",
         "fX"      : -6.0,
         "fY"      : 0.0,
         "fRotation" : 0.0,
-        "strID"     : "c8bb95f3-014e-47ad-b2d0-46519c5115a9",
-        "strParentID" : "67680971-104f-4d15-8cfd-27714b8bdf2e"
+        "strID"     : "45b150cf-1a58-4f5c-97a0-599bb5660229",
+        "strParentID" : "3a88e6d3-0510-4308-8fc8-adf49abbc65a"
       },
       {
         "strName" : "ItmStationNav",
@@ -5223,7 +5262,7 @@
         "fX"      : -7.0,
         "fY"      : -33.0,
         "fRotation" : 90.0,
-        "strID"     : "a8a79f37-8e77-4e03-86fe-a7ab6e619091",
+        "strID"     : "47dd2f0d-6a30-4529-80ad-34ee5251471d",
         "aGPMSettings" : [
           {
             "strName" : "Electrical",
@@ -5309,12 +5348,31 @@
         ]
       },
       {
-        "strName" : "ItmRCSCluster01",
+        "strName" : "ItmSensorEM02",
         "fX"      : -3.0,
         "fY"      : -37.0,
         "fRotation" : 180.0,
-        "strID"     : "825b278b-651e-427b-91fc-3bae518784aa",
+        "strID"     : "066b9625-0fab-46a1-b574-71b8a2f607f8",
         "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Sensor",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Sensor"
+            ]
+          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -5459,12 +5517,31 @@
         ]
       },
       {
-        "strName" : "ItmRCSCluster01",
+        "strName" : "ItmSensorIR02",
         "fX"      : 5.0,
         "fY"      : -37.0,
         "fRotation" : 180.0,
-        "strID"     : "c3f1a53a-5de5-4d15-8b7e-2934566350d3",
+        "strID"     : "1d76159f-1b72-40c8-821a-9e04c3609382",
         "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Sensor",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Sensor"
+            ]
+          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -5553,7 +5630,7 @@
         "fX"      : 9.0,
         "fY"      : -33.0,
         "fRotation" : 270.0,
-        "strID"     : "d9882bc7-30a9-4f9a-bd72-6e63ff1be868",
+        "strID"     : "6eda62f1-ab73-45bd-acac-11b41916b95b",
         "aGPMSettings" : [
           {
             "strName" : "Electrical",
@@ -6098,7 +6175,15 @@
               "strCondMonitor01",
               "IsReadyHeat",
               "strInput01",
-              ""
+              "32bb319b-b574-40ca-9454-adc09594f66a",
+              "nKnobBus",
+              "1",
+              "bTurbo",
+              "false",
+              "bReverse",
+              "false",
+              "bSlowMode",
+              "false"
             ]
           },
           {
@@ -6268,6 +6353,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00200105112714556,
+            "NegativeValue" : false
           }
         ]
       },
@@ -7926,7 +8019,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00312500656872374,
+            "Amount"   : 0.0031292128000412,
             "NegativeValue" : false
           }
         ]
@@ -8012,7 +8105,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00100000188243509,
+            "Amount"   : 0.00100167858767108,
             "NegativeValue" : false
           }
         ]
@@ -8190,36 +8283,6 @@
               "ignore",
               "strCondMonitor01",
               "IsReadyHeat"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "ItmAntenna01OnG",
-        "fX"      : -4.0,
-        "fY"      : 3.5,
-        "fRotation" : 0.0,
-        "strID"     : "4ecc8116-d724-4ba0-b447-528383e11ee2",
-        "aGPMSettings" : [
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
             ]
           }
         ]
@@ -9039,46 +9102,6 @@
         ]
       },
       {
-        "strName" : "SysLootSpawnerAirlock",
-        "fX"      : -7.0,
-        "fY"      : 3.0,
-        "fRotation" : 0.0,
-        "strID"     : "ed30d618-f198-49a9-9de9-b357cb41a5fa",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUILootSpawn",
-              "strFriendlyName",
-              "Loot Spawner",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strType",
-              "Loot",
-              "strLoot",
-              "ItmLootSpawnAirlock",
-              "strRange",
-              "0",
-              "strCount",
-              "1",
-              "strNew",
-              "True",
-              "strDamaged",
-              "True",
-              "strDerelict",
-              "True"
-            ]
-          }
-        ]
-      },
-      {
         "strName" : "ItmFloorMSSOW02",
         "fX"      : 9.0,
         "fY"      : 2.0,
@@ -9091,55 +9114,6 @@
         "fY"      : 4.0,
         "fRotation" : 90.0,
         "strID"     : "7dbc3de3-4538-4f5b-83e5-b256ea5e7f0b"
-      },
-      {
-        "strName" : "ItmSensorOptical01",
-        "fX"      : 6.0,
-        "fY"      : 4.0,
-        "fRotation" : 0.0,
-        "strID"     : "573f0c66-6d8c-4381-83bc-22ea086e12d6",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Sensor",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Sensor"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
       },
       {
         "strName" : "ItmLitWall1x0Orange",
@@ -9200,13 +9174,6 @@
             ]
           }
         ]
-      },
-      {
-        "strName" : "ItmStorageBin1x102b",
-        "fX"      : -7.5,
-        "fY"      : 3.0,
-        "fRotation" : 90.0,
-        "strID"     : "f0bbb0c2-6195-4039-af2d-281dfe65a9c7"
       },
       {
         "strName" : "ItmWallAero1x3SlantB",
@@ -9566,55 +9533,6 @@
         "strID"     : "fbabe83d-69a6-4eda-8706-2099b59776f2"
       },
       {
-        "strName" : "ItmSensorEM02",
-        "fX"      : -7.0,
-        "fY"      : -32.0,
-        "fRotation" : 90.0,
-        "strID"     : "d15179e7-ea2e-497b-bf47-f783d4f0bf3d",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Sensor",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Sensor"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
-      },
-      {
         "strName" : "ItmHeavyLiftRotor01Off",
         "fX"      : -13.0,
         "fY"      : -30.0,
@@ -9646,7 +9564,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9661,14 +9579,22 @@
               "0"
             ]
           }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.007502431807968,
+            "NegativeValue" : false
+          }
         ]
       },
       {
-        "strName" : "ItmSensorIR02",
+        "strName" : "ItmAlarmSmokeOnG",
         "fX"      : 9.0,
-        "fY"      : -32.0,
+        "fY"      : -1.0,
         "fRotation" : 270.0,
-        "strID"     : "18fac24c-8cfc-4907-9564-e326c9faf04d",
+        "strID"     : "2f136b75-5e96-42f5-969d-a66f305dcb38",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -9676,7 +9602,7 @@
               "strGUIPrefab",
               "GUIOnOff",
               "strFriendlyName",
-              "Sensor",
+              "Alarm",
               "strGUIPrefabRight",
               null,
               "strGUIPrefabLeft",
@@ -9686,7 +9612,7 @@
               "strGUIPrefabDown",
               null,
               "strTitle",
-              "Sensor"
+              "Alarm Override"
             ]
           },
           {
@@ -9744,7 +9670,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9758,6 +9684,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00751181142499652,
+            "NegativeValue" : false
           }
         ]
       },
@@ -9793,7 +9727,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9807,6 +9741,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00751408899851189,
+            "NegativeValue" : false
           }
         ]
       },
@@ -9842,7 +9784,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9856,6 +9798,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00750638981369782,
+            "NegativeValue" : false
           }
         ]
       },
@@ -9891,7 +9841,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9905,6 +9855,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00750113836517558,
+            "NegativeValue" : false
           }
         ]
       },
@@ -9940,7 +9898,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -9954,6 +9912,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00750925963612179,
+            "NegativeValue" : false
           }
         ]
       },
@@ -9989,7 +9955,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -10003,6 +9969,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.0075083338307729,
+            "NegativeValue" : false
           }
         ]
       },
@@ -10038,7 +10012,7 @@
               "status",
               "false",
               "inputConnections",
-              "d013c55a-f1ac-4764-937e-3bc7fbe74005#1#true#",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -10052,6 +10026,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.0075054250978507,
+            "NegativeValue" : false
           }
         ]
       },
@@ -10614,7 +10596,7 @@
         "fX"      : -5.0,
         "fY"      : -2.0,
         "fRotation" : 180.0,
-        "strID"     : "d013c55a-f1ac-4764-937e-3bc7fbe74005",
+        "strID"     : "e8638d9e-205c-4ddb-8104-8ceb1f4349f9",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -10661,7 +10643,7 @@
               "inputConnections",
               "",
               "outputConnections",
-              "9c5c9785-817a-4686-828a-f4903f04d065#0#true#,bb8860a2-7c63-4ff7-bca1-7ad142ddf1fb#0#true#,01dda9a8-0257-43a4-8299-c8def2e7fb32#0#true#,208d6c5f-75ad-4fdf-9110-3baf4d283424#0#true#,4dfe6a76-f042-4ee3-8694-bd14d33cb17c#0#true#,80d6c4b0-d389-4444-9c62-69b4cb074c4e#0#true#,624f3c0c-3b79-453f-803e-04c568cf6652#0#true#,6d894a64-ff70-4ea6-941e-13132b53a7cd#0#true#",
+              "9c5c9785-817a-4686-828a-f4903f04d065#0#true#,bb8860a2-7c63-4ff7-bca1-7ad142ddf1fb#0#true#,01dda9a8-0257-43a4-8299-c8def2e7fb32#0#true#,208d6c5f-75ad-4fdf-9110-3baf4d283424#0#true#,4dfe6a76-f042-4ee3-8694-bd14d33cb17c#0#true#,80d6c4b0-d389-4444-9c62-69b4cb074c4e#0#true#,624f3c0c-3b79-453f-803e-04c568cf6652#0#true#,6d894a64-ff70-4ea6-941e-13132b53a7cd#0#true#,cb023568-7d92-4833-9d6d-56631d787329#0#true#,9252075b-b896-4a54-b481-88e0f75a9178#0#true#",
               "signalQueue",
               "",
               "sendQueue",
@@ -11572,7 +11554,7 @@
         "strID"     : "82a6c671-e634-456b-b1f8-9363a7ee75fe"
       },
       {
-        "strName" : "ItmHeavyLiftRotor01On",
+        "strName" : "ItmHeavyLiftRotor01Off",
         "fX"      : -9.0,
         "fY"      : -30.0,
         "fRotation" : 270.0,
@@ -11601,9 +11583,9 @@
             "strName" : "Electrical",
             "dictGUIPropMap" : [
               "status",
-              "true",
+              "false",
               "inputConnections",
-              "",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -11623,13 +11605,13 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00375,
+            "Amount"   : 0.00750493996224505,
             "NegativeValue" : false
           }
         ]
       },
       {
-        "strName" : "ItmHeavyLiftRotor01On",
+        "strName" : "ItmHeavyLiftRotor01Off",
         "fX"      : 11.0,
         "fY"      : -30.0,
         "fRotation" : 90.0,
@@ -11658,9 +11640,9 @@
             "strName" : "Electrical",
             "dictGUIPropMap" : [
               "status",
-              "true",
+              "false",
               "inputConnections",
-              "",
+              "e8638d9e-205c-4ddb-8104-8ceb1f4349f9#1#true#",
               "outputConnections",
               "",
               "signalQueue",
@@ -11680,17 +11662,17 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00375,
+            "Amount"   : 0.00750563789821717,
             "NegativeValue" : false
           }
         ]
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 9.0,
-        "fY"      : -1.192093E-07,
-        "fRotation" : 270.0,
-        "strID"     : "e494c4ad-6652-499c-b578-62ffa302375d",
+        "fX"      : 5.0,
+        "fY"      : 2.0,
+        "fRotation" : 90.0,
+        "strID"     : "e1526201-b158-436c-9a27-89f3cbabc7b8",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -11736,10 +11718,10 @@
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 1.0,
+        "fX"      : -4.0,
         "fY"      : -3.0,
-        "fRotation" : 180.0,
-        "strID"     : "5eb84114-bbea-48a2-b808-cc9e2a224065",
+        "fRotation" : 90.0,
+        "strID"     : "ca7cd9db-e7a4-4adc-a78d-17b66aa8b7c5",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -11785,10 +11767,10 @@
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : -6.0,
-        "fY"      : -2.0,
+        "fX"      : 2.0,
+        "fY"      : -20.0,
         "fRotation" : 180.0,
-        "strID"     : "21a45d4b-be60-4522-b0df-c9159d2b99c0",
+        "strID"     : "14600e34-c100-410b-a601-fcf28ab99db1",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -11833,31 +11815,12 @@
         ]
       },
       {
-        "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 3.0,
-        "fY"      : -22.0,
-        "fRotation" : 270.0,
-        "strID"     : "7b77c6be-9e52-4596-9f02-09af78f747bd",
+        "strName" : "ItmAntenna01OnG",
+        "fX"      : -7.0,
+        "fY"      : 3.5,
+        "fRotation" : 0.0,
+        "strID"     : "30620a7b-44c9-46fa-a0b7-28b124dc1eb9",
         "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Alarm",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Alarm Override"
-            ]
-          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -11886,42 +11849,42 @@
         "fX"      : -15.0,
         "fY"      : 8.0,
         "fRotation" : 0.0,
-        "strID"     : "9f9e9e5c-911a-45e6-a127-49a7ca15c90d"
+        "strID"     : "f2283434-eadf-48aa-8ccf-2cf89736a0a8"
       },
       {
         "strName" : "Compartment",
         "fX"      : 0.0,
         "fY"      : 6.0,
         "fRotation" : 0.0,
-        "strID"     : "45f91288-3e32-499b-ba72-02e7fc582b13"
+        "strID"     : "de26523f-580f-4735-bc4b-c25bc41be3dc"
       },
       {
         "strName" : "Compartment",
         "fX"      : 5.0,
         "fY"      : 3.0,
         "fRotation" : 0.0,
-        "strID"     : "0d18992c-d4ee-4dd7-b166-c8a8959e7930"
+        "strID"     : "67a993c7-3b2f-40f5-a63a-f7f7c9e95a83"
       },
       {
         "strName" : "Compartment",
         "fX"      : 8.0,
         "fY"      : 2.0,
         "fRotation" : 0.0,
-        "strID"     : "6bee3e0b-9d29-4b8e-8bfd-5a7b8d32cfc5"
+        "strID"     : "64571037-3fa6-427b-872d-a832dfc7d2db"
       },
       {
         "strName" : "Compartment",
         "fX"      : -7.0,
         "fY"      : 1.0,
         "fRotation" : 0.0,
-        "strID"     : "d5880c4c-a619-4f3a-a56c-3ba393add3ba"
+        "strID"     : "698b0607-a241-4e30-8885-73901cb65563"
       },
       {
         "strName" : "Compartment",
         "fX"      : -1.0,
         "fY"      : -5.0,
         "fRotation" : 0.0,
-        "strID"     : "facf01c4-0f10-4c68-a0d4-23d791369b6e"
+        "strID"     : "570bf9d9-2566-41e0-a704-afa24b3f7227"
       }
     ],
     "vShipPos"         : {
@@ -11930,12 +11893,12 @@
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.010104921597415,
-      "vPosy"     : -0.0147421844549762,
+      "vPosx"     : 1.98917117028323,
+      "vPosy"     : 2.90156902247591,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -0.00035405661843404,
-      "vVelY"      : -0.000516537281786975,
+      "vVelX"      : 0.00955272488249181,
+      "vVelY"      : 0.0139343919310642,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -11950,61 +11913,70 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627498886.422,
-        65627498884.4218,
-        65627498882.4216,
-        65627498880.4214,
-        65627498878.4212,
-        65627498876.421,
-        65627498874.4208,
-        65627498872.4146,
-        65627498870.4145,
-        65627498868.4143,
-        65627498866.4141,
-        65627498864.4139,
-        65627498862.4137,
-        65627498860.4136,
-        65627498858.4124,
-        65627498856.4122,
-        65627498854.4111
+        65627499067.1975,
+        65627499065.1873,
+        65627499063.1827,
+        65627499061.1751,
+        65627499059.175,
+        65627499057.1715,
+        65627499055.1699,
+        65627499053.1673,
+        65627499051.1596,
+        65627499049.1534,
+        65627499047.1481,
+        65627499045.1276,
+        65627499043.1193,
+        65627499041.1156,
+        65627499039.1083,
+        65627499037.1067,
+        65627499035.1026,
+        65627499033.09,
+        65627499031.0762,
+        65627499029.0692
       ],
       "aPathRecentX"   : [
-        -0.0095099188329971,
-        -0.00880179232816482,
-        -0.00809366442487663,
-        -0.00738553849391219,
-        -0.00667741684910083,
-        -0.00596929423596736,
-        -0.00526117017221791,
-        -0.00455093394317023,
-        -0.00384280808205884,
-        -0.00313467978939209,
-        -0.00242654050263694,
-        -0.00171840149819656,
-        -0.00101025383663125,
-        -0.000302060683680773,
-        -2.42995608651952E-05,
-        -6.2369743117162E-06,
-        -1.22571180862342E-07
+        1.98193834851748,
+        1.96273556029537,
+        1.94358649757646,
+        1.92440814812859,
+        1.9053025474138,
+        1.88616352272568,
+        1.86704259939467,
+        1.84790850862976,
+        1.82872617560963,
+        1.80956094391661,
+        1.79040396485319,
+        1.77109930920921,
+        1.75191245979537,
+        1.73276859754377,
+        1.71359384746539,
+        1.69447332539184,
+        1.67532808187018,
+        1.65610298805454,
+        1.63686559897208,
+        1.61769292662157
       ],
       "aPathRecentY"   : [
-        -0.0138741280634661,
-        -0.0128410341431063,
-        -0.011807938182523,
-        -0.0107748450993857,
-        -0.00974175826936658,
-        -0.00870867002665122,
-        -0.00767557966761556,
-        -0.00663940784627986,
-        -0.00560631486505241,
-        -0.00457321833640103,
-        -0.00354010576834771,
-        -0.00250699361216724,
-        -0.00147386882600888,
-        -0.000440677671950709,
-        -3.54499446699723E-05,
-        -9.09894225132027E-06,
-        -1.78815523968264E-07
+        2.89101863245723,
+        2.86300786269807,
+        2.8350754613864,
+        2.80710034003779,
+        2.77923133598784,
+        2.75131357697529,
+        2.72342222209429,
+        2.69551166010882,
+        2.66753072799336,
+        2.63957474128325,
+        2.61163079253894,
+        2.58347143056145,
+        2.55548391046184,
+        2.52755909498046,
+        2.49958922396889,
+        2.47169845439509,
+        2.44377162407933,
+        2.41572831754283,
+        2.38766707611666,
+        2.35970023585023
       ],
       "vAccLift"       : {
         "x" : 0.0,
@@ -12022,12 +11994,13 @@
       "bIsBO"          : false,
       "bIsRegion"      : false,
       "bIsNoFees"      : true,
+      "bGrounded"      : false,
       "size"           : 600,
       "bIgnoreGrav"    : false
     },
     "aRooms"           : [
       {
-        "strID" : "9f9e9e5c-911a-45e6-a127-49a7ca15c90d",
+        "strID" : "f2283434-eadf-48aa-8ccf-2cf89736a0a8",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -12984,10 +12957,10 @@
           1114
         ],
         "roomSpec" : "Blank",
-        "roomValue" : 613526.000042238
+        "roomValue" : 612372.000042238
       },
       {
-        "strID" : "45f91288-3e32-499b-ba72-02e7fc582b13",
+        "strID" : "de26523f-580f-4735-bc4b-c25bc41be3dc",
         "bVoid" : false,
         "aTiles" : [
           81,
@@ -13013,7 +12986,7 @@
         "roomValue" : 130446.0
       },
       {
-        "strID" : "0d18992c-d4ee-4dd7-b166-c8a8959e7930",
+        "strID" : "67a993c7-3b2f-40f5-a63a-f7f7c9e95a83",
         "bVoid" : false,
         "aTiles" : [
           185,
@@ -13063,10 +13036,10 @@
           310
         ],
         "roomSpec" : "BasicQuarters",
-        "roomValue" : 34979.3990733624
+        "roomValue" : 25979.3993117809
       },
       {
-        "strID" : "6bee3e0b-9d29-4b8e-8bfd-5a7b8d32cfc5",
+        "strID" : "64571037-3fa6-427b-872d-a832dfc7d2db",
         "bVoid" : false,
         "aTiles" : [
           221,
@@ -13085,7 +13058,7 @@
         "roomValue" : 8731.79976868629
       },
       {
-        "strID" : "d5880c4c-a619-4f3a-a56c-3ba393add3ba",
+        "strID" : "698b0607-a241-4e30-8885-73901cb65563",
         "bVoid" : false,
         "aTiles" : [
           239,
@@ -13112,10 +13085,10 @@
           375
         ],
         "roomSpec" : "BridgeRoom",
-        "roomValue" : 74799.75
+        "roomValue" : 82299.75
       },
       {
-        "strID" : "facf01c4-0f10-4c68-a0d4-23d791369b6e",
+        "strID" : "570bf9d9-2566-41e0-a704-afa24b3f7227",
         "bVoid" : false,
         "aTiles" : [
           443,
@@ -13433,7 +13406,7 @@
       "565bbc77-5c46-4988-95d5-b24632224614" : "CargoPodDefault",
       "121aee17-9414-45c7-abf2-ceedcb375da6" : "CargoPodDefault"
     },
-    "fShallowMass"     : 19060.85,
+    "fShallowMass"     : 19027.85,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,
     "fShallowFusionRemain" : 9E99,
@@ -13442,15 +13415,15 @@
     "fLastQuotedPrice"     : 0.0,
     "fEpochNextGrav"       : 65627501302.5542,
     "fBreakInMultiplier"   : 0.0,
-    "nRCSCount"            : 12.0,
-    "fShallowRotorStrength" : 450.0,
+    "nRCSCount"            : 10.0,
+    "fShallowRotorStrength" : 0.0,
     "nRCSDistroCount"       : 4,
     "fAeroCoefficient"      : 0.0,
     "aDockingPorts"         : [
       "6ab1f111-6575-4711-b066-512fbb229cbc"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "J-W5H",
+    "strXPDR"               : "E-W43",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,

@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthRKLaborBarge",
-    "strRegID" : "V-SY4X",
+    "strRegID" : "M-KQJJ",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 77.37196,
+    "fTimeEngaged"     : 548.7625,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-V-SY4X",
+      "strID" : "CO-M-KQJJ",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "V-SY4X",
+      "strCondID" : "M-KQJJ",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -35,10 +35,11 @@
         "H-6EJN",
         "O-L1H",
         "V-SVSB",
-        "V-SY4X"
+        "V-SY4X",
+        "M-KQJJ"
       ],
-      "strFriendlyName" : "CO-V-SY4X",
-      "strRegIDLast"    : "V-SY4X",
+      "strFriendlyName" : "CO-M-KQJJ",
+      "strRegIDLast"    : "M-KQJJ",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -3278,24 +3279,24 @@
         "fX"      : 1.0,
         "fY"      : 12.0,
         "fRotation" : 0.0,
-        "strID"     : "2d616fd3-10ee-4145-8a4c-86dfa087dbe5",
+        "strID"     : "58576822-2240-43cf-94b5-85ef69c47bfc",
         "strSlotParentID" : "3f1a85ae-33bc-44cc-8c6d-a7b2fe43e3b4"
       },
       {
-        "strName" : "DataBINPersonalAddressesNewcal",
+        "strName" : "DataIMGMeat01",
         "fX"      : 1.0,
         "fY"      : 12.0,
         "fRotation" : 0.0,
-        "strID"     : "1657f1a1-a28d-4e17-8c19-5f7272dfaf09",
-        "strParentID" : "2d616fd3-10ee-4145-8a4c-86dfa087dbe5"
+        "strID"     : "0d975d6c-66e7-41c9-8cd1-c12da4bb5a02",
+        "strParentID" : "58576822-2240-43cf-94b5-85ef69c47bfc"
       },
       {
-        "strName" : "DataBINPersonalAddressesProkofiev",
+        "strName" : "DataVIDVlog07",
         "fX"      : 1.0,
         "fY"      : 12.0,
         "fRotation" : 0.0,
-        "strID"     : "58ea5dd6-e806-465b-846d-503f75543d8f",
-        "strParentID" : "2d616fd3-10ee-4145-8a4c-86dfa087dbe5"
+        "strID"     : "976bc639-eaca-4861-94a7-3ceb0bed7ad2",
+        "strParentID" : "58576822-2240-43cf-94b5-85ef69c47bfc"
       },
       {
         "strName" : "ItmStationNav",
@@ -3489,7 +3490,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "V-SY4X"
+              "M-KQJJ"
             ]
           },
           {
@@ -3873,51 +3874,125 @@
         "strID"     : "99aa9170-3fed-426b-972c-d5be99d6423e"
       },
       {
-        "strName" : "ItmTrencherAcceptableAlgae",
+        "strName" : "ItmBackpack02",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "91832b13-57a2-4d68-9bcd-fdbcad5ab511",
+        "strID"     : "2d24fce4-e521-4bce-af13-66d4df2a6abc",
         "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
       },
       {
-        "strName" : "ItmShirt01",
+        "strName" : "PocketPouchSmall01",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "30ada1d7-5a73-4142-ac26-0323c0d65413",
+        "strID"     : "fc9b1db5-438e-4c25-b516-0caac8ac3d09",
+        "strSlotParentID" : "2d24fce4-e521-4bce-af13-66d4df2a6abc"
+      },
+      {
+        "strName" : "PocketPouchSmall01",
+        "fX"      : -8.5,
+        "fY"      : 1.5,
+        "fRotation" : 0.0,
+        "strID"     : "1f8e97d9-4f30-45c0-b99a-9869ee5a72c2",
+        "strSlotParentID" : "2d24fce4-e521-4bce-af13-66d4df2a6abc"
+      },
+      {
+        "strName" : "PocketPouchSmall01",
+        "fX"      : -8.5,
+        "fY"      : 1.5,
+        "fRotation" : 0.0,
+        "strID"     : "8185a8c7-5aec-49c4-b6df-814fde7b52c5",
+        "strSlotParentID" : "2d24fce4-e521-4bce-af13-66d4df2a6abc"
+      },
+      {
+        "strName" : "PocketPouchSmall01",
+        "fX"      : -8.5,
+        "fY"      : 1.5,
+        "fRotation" : 0.0,
+        "strID"     : "641868ea-7322-46cd-9c5b-dcabdbe7ed99",
+        "strSlotParentID" : "2d24fce4-e521-4bce-af13-66d4df2a6abc"
+      },
+      {
+        "strName" : "ItmComponentMobo01",
+        "fX"      : -8.5,
+        "fY"      : 1.5,
+        "fRotation" : 0.0,
+        "strID"     : "d5257457-96b1-42b5-ad1f-07112574573a",
         "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
       },
       {
-        "strName" : "ItmDrinkPouch01",
+        "strName" : "ItmPartsScreen01",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "7cc3cf5f-d1c8-4df9-ae70-be76bfd3fa75",
+        "strID"     : "b8ef9499-690c-4149-9903-2d21c880c2eb",
         "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
       },
       {
-        "strName" : "LiquidWater",
+        "strName" : "ItmHullPatch01",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "ee614a50-3c0d-42ef-9cf9-fb93cf9fa1b6",
-        "strParentID" : "7cc3cf5f-d1c8-4df9-ae70-be76bfd3fa75"
+        "strID"     : "4d30a840-5fe7-4ddb-a20c-d44299658b60",
+        "strParentID" : "d2927591-4818-41f8-8a28-f86341383626",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel OneSheet",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOneSheet",
+              "strFriendlyName",
+              "Hull Patch",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strPNG",
+              "manuals/Holden Patch by Halvorson/000.png"
+            ]
+          }
+        ]
       },
       {
-        "strName" : "ItmCanisterO2Small",
+        "strName" : "ItmHullPatch01",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "fdf25520-48bd-4b68-94e0-b947cb9e0cd4",
-        "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
+        "strID"     : "91addde6-98fe-47e2-acf1-14f65177028f",
+        "strParentID" : "4d30a840-5fe7-4ddb-a20c-d44299658b60",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel OneSheet",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOneSheet",
+              "strFriendlyName",
+              "Hull Patch",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strPNG",
+              "manuals/Holden Patch by Halvorson/000.png"
+            ]
+          }
+        ]
       },
       {
-        "strName" : "OutfitPS01",
+        "strName" : "OutfitPS01Dmg",
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "7019d2e5-4aad-4492-93c5-bb05db78b785",
+        "strID"     : "2cb0733b-92b0-4555-a283-c9ec12eec930",
         "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
       },
       {
@@ -3925,24 +4000,8 @@
         "fX"      : -8.5,
         "fY"      : 1.5,
         "fRotation" : 0.0,
-        "strID"     : "c537c92a-4aab-40d5-b416-89e78d6e0858",
-        "strSlotParentID" : "7019d2e5-4aad-4492-93c5-bb05db78b785"
-      },
-      {
-        "strName" : "OutfitHelmet09",
-        "fX"      : -8.5,
-        "fY"      : 1.5,
-        "fRotation" : 0.0,
-        "strID"     : "16f5d389-ec4f-496d-abd3-90895c77bb35",
-        "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
-      },
-      {
-        "strName" : "ItmWeaponPocketKnife01",
-        "fX"      : -8.5,
-        "fY"      : 1.5,
-        "fRotation" : 0.0,
-        "strID"     : "6e2ae48d-b13f-4011-b5ba-83069b75d868",
-        "strParentID" : "d2927591-4818-41f8-8a28-f86341383626"
+        "strID"     : "797e4039-9835-486b-8e01-8eacce837861",
+        "strSlotParentID" : "2cb0733b-92b0-4555-a283-c9ec12eec930"
       },
       {
         "strName" : "ItmCrate01Lock",
@@ -3979,6 +4038,182 @@
         ]
       },
       {
+        "strName" : "ItmPartsScreen01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "55e6387f-dc82-429b-a3cb-858625760b58",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
+        "strName" : "ItmComponentMotor01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "73e7c505-4827-4a51-850f-b5b0ad7e6d64",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
+        "strName" : "ItmHeatSink01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "d655900a-91f1-480d-a9f6-0a2fda498a5b",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
+        "strName" : "ItmPillBottle03",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "5272ea59-2731-4321-8dbe-062b12efc8a1",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "0113fae9-52d4-48bb-a32f-48a248592856",
+        "strParentID" : "5272ea59-2731-4321-8dbe-062b12efc8a1"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "a93d385c-df04-48c6-9a36-24e048ef0994",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "1b46c26a-84ae-4c1b-8be6-352669c7ab8c",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "c69b087c-8ef1-4fb0-8227-07262551a55d",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "87e93c2a-ee06-4091-9e14-1b00c41e1522",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "b7fa0e8d-4823-4746-9cb2-76cf61dbeebe",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "ba5f1f21-4991-4bee-8cd7-936117380b1d",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "250893ad-d640-49bb-8008-eba610c8cd8f",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "24f21437-110f-46cf-85e0-8c2bc53bbd61",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "11ab0e43-cb98-4607-a115-3545066ab764",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "fb5b7ea6-2f30-4448-8251-28115a7b5ae8",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "61e3b422-c586-4f6d-9353-30712f33bbf7",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "52d91c5c-3098-4170-b8fd-cc7c4e0ceba2",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "1f6481d9-77e8-4616-846f-5a352dc25462",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "912e5912-5432-40a5-bb0a-2776ebc85b83",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "1383067b-feb5-49e7-84fd-ca46771a9923",
+        "strParentID" : "0113fae9-52d4-48bb-a32f-48a248592856"
+      },
+      {
+        "strName" : "ItmDrinkBottle02",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "b77bdea9-a3d5-40da-b3b8-416a93db4f59",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
+        "strName" : "ItmTrencherAcceptableAlgae",
+        "fX"      : 9.5,
+        "fY"      : 0.5,
+        "fRotation" : 0.0,
+        "strID"     : "7ebcf736-1354-4517-8ba6-4b9acd1e369d",
+        "strParentID" : "4479276f-66e6-4862-89e5-0868829687ee"
+      },
+      {
         "strName" : "ItmCrate01Lock",
         "fX"      : 9.5,
         "fY"      : 0.5,
@@ -4013,164 +4248,12 @@
         ]
       },
       {
-        "strName" : "ItmPartsScreen01",
+        "strName" : "OutfitTShirtBrand15c",
         "fX"      : 8.5,
         "fY"      : -1.5,
         "fRotation" : 0.0,
-        "strID"     : "582fc736-9686-451f-9ee1-19dbd97cf8cf",
+        "strID"     : "c02aa3f9-35b4-4250-89a7-70bc8c66a5d8",
         "strParentID" : "28b2695f-153a-42cc-9a00-52e57ddfece1"
-      },
-      {
-        "strName" : "ItmHeatSink01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "a0957403-7cec-414a-af16-48eec35badca",
-        "strParentID" : "28b2695f-153a-42cc-9a00-52e57ddfece1"
-      },
-      {
-        "strName" : "ItmHeatSink01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "b346d812-15cc-48ab-9b27-28498c662617",
-        "strParentID" : "28b2695f-153a-42cc-9a00-52e57ddfece1"
-      },
-      {
-        "strName" : "ItmPillBottle01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "b9f373da-1400-46cc-874b-57d30331ea97",
-        "strParentID" : "28b2695f-153a-42cc-9a00-52e57ddfece1"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "dfffcf99-5575-427a-b324-ab3c290d59b9",
-        "strParentID" : "b9f373da-1400-46cc-874b-57d30331ea97"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "b038c060-d0aa-4f23-bfe5-dec72aa3e035",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "86adc959-d2a9-4923-be04-27922312734a",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "5ce5d5ea-a735-4cd2-8fb4-7452d3623433",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "aa811893-5476-4b5a-9748-5e5e9de617df",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "1fc044d0-6db2-4718-85ce-50d3dd15acc4",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "d3a5b00a-209f-41bd-a296-79a2dd56589f",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "f6e658ca-6ef9-437b-a3bb-970f5345d713",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "63fe93b0-db03-4d4e-a7ae-9fc429c5f0f5",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "c829dc3c-39e2-4173-a66e-3aea9e6562a8",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "e963d5dc-72b0-4d81-bb1a-6cc67f6d811c",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "15366b44-f40e-4e7f-a6cc-217f8f3bc7d9",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "937e4156-33e1-4eb0-b209-25fe1eceadc9",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "ba0ae198-2f62-4a34-b81f-6935b7c8c0e1",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "a41cda9d-51d9-45e3-8250-125ed36e5f77",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
-      },
-      {
-        "strName" : "ItmPillPainkillerMinor01",
-        "fX"      : 8.5,
-        "fY"      : -1.5,
-        "fRotation" : 0.0,
-        "strID"     : "0a16ad51-fb00-4c34-a674-49fe6507cfe4",
-        "strParentID" : "dfffcf99-5575-427a-b324-ab3c290d59b9"
       },
       {
         "strName" : "ItmCrate01Lock",
@@ -4855,12 +4938,31 @@
         "strID"     : "f7c65335-2c45-4648-86f1-f8e036afaf5b"
       },
       {
-        "strName" : "ItmAntenna01OnG",
-        "fX"      : -5.0,
-        "fY"      : 9.5,
-        "fRotation" : 0.0,
-        "strID"     : "88db5689-ff88-4e35-9ca8-23566a7d020e",
+        "strName" : "ItmSensorOptical01",
+        "fX"      : -4.0,
+        "fY"      : 10.0,
+        "fRotation" : 90.0,
+        "strID"     : "3c8a0b7e-f206-466e-bd4a-0b4a8335bd01",
         "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Sensor",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Sensor"
+            ]
+          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -5299,31 +5401,12 @@
         ]
       },
       {
-        "strName" : "ItmSensorOptical01",
-        "fX"      : 1.0,
-        "fY"      : 14.0,
+        "strName" : "ItmAntenna01OnG",
+        "fX"      : 4.0,
+        "fY"      : 14.5,
         "fRotation" : 0.0,
-        "strID"     : "054d759f-f9c5-4c1c-964d-32ea9d3298d5",
+        "strID"     : "16dd6d7e-1cd0-4712-8de4-e6ae5a435f22",
         "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Sensor",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Sensor"
-            ]
-          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -5508,7 +5591,7 @@
         ]
       },
       {
-        "strName" : "ItmDoor01Open",
+        "strName" : "ItmDoor01Closed",
         "fX"      : 0.0,
         "fY"      : -5.0,
         "fRotation" : 0.0,
@@ -5559,6 +5642,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.0025037249794373,
+            "NegativeValue" : false
           }
         ]
       },
@@ -5732,6 +5823,14 @@
               "0"
             ]
           }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.001001440066056,
+            "NegativeValue" : false
+          }
         ]
       },
       {
@@ -5794,6 +5893,14 @@
               "gate",
               "0"
             ]
+          }
+        ],
+        "aCondOverrides" : [
+          {
+            "CondName" : "StatDamage",
+            "Chance"   : 1.0,
+            "Amount"   : 0.00100148266168397,
+            "NegativeValue" : false
           }
         ]
       },
@@ -6547,59 +6654,10 @@
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 3.0,
-        "fY"      : 5.0,
-        "fRotation" : 180.0,
-        "strID"     : "13a722d3-9662-42bc-a401-ee4733fe2bc8",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Alarm",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Alarm Override"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "ItmAlarmSmokeOnG",
         "fX"      : -3.0,
         "fY"      : 5.0,
-        "fRotation" : 180.0,
-        "strID"     : "25893a2c-8bbe-4b76-8b81-9fc7a8514e36",
+        "fRotation" : 270.0,
+        "strID"     : "4c12b10c-82d3-4f84-ae6d-9e4a8a951527",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -6694,10 +6752,10 @@
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 1.0,
-        "fY"      : 9.0,
-        "fRotation" : 270.0,
-        "strID"     : "55db3dc0-f82f-4286-a76d-05c56f88f76e",
+        "fX"      : -3.0,
+        "fY"      : 12.0,
+        "fRotation" : 0.0,
+        "strID"     : "9560f1cb-7e10-4a4c-9bf5-b7f00de157da",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -6746,8 +6804,64 @@
         "fX"      : 1.0,
         "fY"      : 15.0,
         "fRotation" : 180.0,
-        "strID"     : "3ad7cf7e-d1f9-4f2e-a26e-038b14806f3f",
+        "strID"     : "7974145d-6822-44c6-87d8-1afdb3c1fd69",
         "aGPMSettings" : [
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : -2.0,
+        "fY"      : 5.0,
+        "fRotation" : 0.0,
+        "strID"     : "2d9f2c88-efc9-4afd-a32c-be5cbbc9b600"
+      },
+      {
+        "strName" : "ItmAlarmSmokeOnG",
+        "fX"      : 4.0,
+        "fY"      : 7.0,
+        "fRotation" : 270.0,
+        "strID"     : "bced517d-27ee-469a-a243-b44a5b535ce6",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Alarm",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Alarm Override"
+            ]
+          },
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -6774,58 +6888,58 @@
       {
         "strName" : "Compartment",
         "fX"      : -11.0,
-        "fY"      : 16.0,
+        "fY"      : 17.0,
         "fRotation" : 0.0,
-        "strID"     : "8cab80cf-33db-4fbf-9205-960709e75d24"
+        "strID"     : "a91f6738-ff85-4eae-91bc-3ca730eb20eb"
       },
       {
         "strName" : "Compartment",
         "fX"      : -2.0,
         "fY"      : 13.0,
         "fRotation" : 0.0,
-        "strID"     : "6b68d81f-fe38-48d6-8bba-cc643627431a"
+        "strID"     : "041377dc-b50c-4895-b0e7-19181b393dc2"
       },
       {
         "strName" : "Compartment",
         "fX"      : 3.0,
         "fY"      : 8.0,
         "fRotation" : 0.0,
-        "strID"     : "793202bf-9260-4e65-8f79-b4f97ff470e8"
+        "strID"     : "5ce78a61-a9e9-40cc-8ce7-3a29e96431ac"
       },
       {
         "strName" : "Compartment",
         "fX"      : -4.0,
         "fY"      : 7.0,
         "fRotation" : 0.0,
-        "strID"     : "35ad18d8-6479-4fb5-a2e5-e863e57d43c7"
+        "strID"     : "0957f7d1-4ec8-4fd1-b8a9-d8854d1a0e96"
       },
       {
         "strName" : "Compartment",
         "fX"      : -5.0,
         "fY"      : 3.0,
         "fRotation" : 0.0,
-        "strID"     : "c12032ef-6642-4b2e-ab85-8adb3314b7b3"
+        "strID"     : "c1eb6e94-2b61-44ac-a706-d2355848c244"
       },
       {
         "strName" : "Compartment",
         "fX"      : -1.0,
         "fY"      : -6.0,
         "fRotation" : 0.0,
-        "strID"     : "4dff052b-08ba-4aa6-809d-e4f9854c90b1"
+        "strID"     : "f15c6f08-8e56-45b1-bd56-7fdbe48a341a"
       }
     ],
     "vShipPos"         : {
       "x" : -11.0,
-      "y" : 16.0
+      "y" : 17.0
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.00715029940224587,
-      "vPosy"     : -0.0104316117067379,
+      "vPosx"     : -0.160895965871436,
+      "vPosy"     : -0.234732477220404,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -9.88080876902513E-05,
-      "vVelY"      : -0.000144151696232014,
+      "vVelX"      : -0.000296136520640344,
+      "vVelY"      : -0.00043203606311823,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -6840,70 +6954,70 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627498930.4352,
-        65627498928.4351,
-        65627498926.4348,
-        65627498924.4346,
-        65627498922.4343,
-        65627498920.4342,
-        65627498918.434,
-        65627498916.4339,
-        65627498914.4337,
-        65627498912.4332,
-        65627498910.433,
-        65627498908.423,
-        65627498906.408,
-        65627498904.4015,
-        65627498902.3864,
-        65627498900.3862,
-        65627498898.386,
-        65627498896.3859,
-        65627498894.3856,
-        65627498892.3855
+        65627499402.3045,
+        65627499400.3041,
+        65627499398.2948,
+        65627499396.2861,
+        65627499394.2804,
+        65627499392.2682,
+        65627499390.2679,
+        65627499388.2676,
+        65627499386.2619,
+        65627499384.2512,
+        65627499382.2402,
+        65627499380.2313,
+        65627499378.2242,
+        65627499376.2113,
+        65627499374.2052,
+        65627499372.1961,
+        65627499370.1909,
+        65627499368.1892,
+        65627499366.1831,
+        65627499364.1708
       ],
       "aPathRecentX"   : [
-        -0.0070496332445577,
-        -0.00685201429231219,
-        -0.00665439002511457,
-        -0.00645675743135384,
-        -0.00625912610567247,
-        -0.00606150118935552,
-        -0.00586387772385966,
-        -0.00566625329307286,
-        -0.005468623113088,
-        -0.00527096039944901,
-        -0.00507333440127746,
-        -0.00487474097105138,
-        -0.00467563091012828,
-        -0.00447736285632062,
-        -0.00427826477393841,
-        -0.00408062656802979,
-        -0.0038829921706092,
-        -0.00368535584256407,
-        -0.00348771729025549,
-        -0.00329007630739723
+        -0.160741871823953,
+        -0.160149474731479,
+        -0.159554476699637,
+        -0.158959632209288,
+        -0.158365651997905,
+        -0.157769782906767,
+        -0.1571774100911,
+        -0.156585052053236,
+        -0.155991100886593,
+        -0.155395650972756,
+        -0.15480014257188,
+        -0.154205242253672,
+        -0.153610862719861,
+        -0.153014787923729,
+        -0.152420720252318,
+        -0.151825721612014,
+        -0.15123192232359,
+        -0.150639131497154,
+        -0.150045049453617,
+        -0.149449151413794
       ],
       "aPathRecentY"   : [
-        -0.0102847492613337,
-        -0.00999644181768531,
-        -0.00970812662002246,
-        -0.0094197992746883,
-        -0.00913147377936277,
-        -0.00884315763469672,
-        -0.00855484360664229,
-        -0.0082665281703196,
-        -0.00797820434645861,
-        -0.00768983305905993,
-        -0.00740151533607154,
-        -0.00711178622080883,
-        -0.00682130339000524,
-        -0.0065320489683007,
-        -0.00624158361306143,
-        -0.00595324808013661,
-        -0.0056649181034379,
-        -0.00537658531014048,
-        -0.00508824927185294,
-        -0.00479990968762319
+        -0.234507668117223,
+        -0.233643415011656,
+        -0.232775367373748,
+        -0.231907543738817,
+        -0.231040981007746,
+        -0.230171662574098,
+        -0.229307444886169,
+        -0.228443248757701,
+        -0.227576728400246,
+        -0.226708021507891,
+        -0.225839229288302,
+        -0.224971324205638,
+        -0.224104178899715,
+        -0.223234560361319,
+        -0.222367870034076,
+        -0.221499821508478,
+        -0.220633522727434,
+        -0.219768695200076,
+        -0.218901983905218,
+        -0.21803262323809
       ],
       "vAccLift"       : {
         "x" : 0.0,
@@ -6921,12 +7035,13 @@
       "bIsBO"          : false,
       "bIsRegion"      : false,
       "bIsNoFees"      : true,
+      "bGrounded"      : false,
       "size"           : 360,
       "bIgnoreGrav"    : false
     },
     "aRooms"           : [
       {
-        "strID" : "8cab80cf-33db-4fbf-9205-960709e75d24",
+        "strID" : "a91f6738-ff85-4eae-91bc-3ca730eb20eb",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -6986,6 +7101,8 @@
           207,
           10,
           32,
+          54,
+          76,
           98,
           120,
           142,
@@ -6995,6 +7112,7 @@
           230,
           11,
           33,
+          55,
           121,
           143,
           165,
@@ -7004,6 +7122,7 @@
           253,
           12,
           34,
+          56,
           144,
           166,
           188,
@@ -7013,6 +7132,7 @@
           276,
           13,
           35,
+          57,
           167,
           189,
           211,
@@ -7022,19 +7142,24 @@
           299,
           14,
           36,
+          58,
+          190,
+          212,
           234,
+          256,
           278,
           300,
           322,
           15,
           37,
+          59,
           257,
-          279,
           301,
           323,
           345,
           16,
           38,
+          60,
           280,
           302,
           324,
@@ -7051,6 +7176,7 @@
           18,
           40,
           62,
+          84,
           326,
           348,
           370,
@@ -7095,6 +7221,7 @@
           154,
           418,
           440,
+          462,
           484,
           506,
           45,
@@ -7103,8 +7230,9 @@
           111,
           133,
           155,
+          177,
           441,
-          485,
+          463,
           507,
           529,
           68,
@@ -7114,7 +7242,6 @@
           156,
           178,
           464,
-          486,
           508,
           530,
           552,
@@ -7134,19 +7261,21 @@
           158,
           180,
           202,
+          224,
           510,
           532,
           554,
           576,
+          598,
           137,
           159,
           181,
           203,
           225,
-          511,
           533,
           555,
           577,
+          599,
           160,
           182,
           204,
@@ -7155,29 +7284,30 @@
           534,
           556,
           578,
+          600,
           183,
           205,
           227,
           249,
           271,
-          535,
           557,
           579,
+          601,
           206,
           228,
           250,
+          272,
           294,
-          536,
           558,
           580,
+          602,
           229,
           251,
           273,
-          295,
           317,
-          537,
           559,
           581,
+          603,
           252,
           274,
           296,
@@ -7185,109 +7315,111 @@
           340,
           560,
           582,
+          604,
           275,
           297,
           319,
           341,
           363,
           583,
+          605,
           298,
           320,
           342,
           364,
           386,
-          584,
+          606,
           321,
           343,
           365,
           387,
           409,
-          585,
+          607,
           344,
           366,
           388,
           410,
           432,
-          586,
+          608,
           367,
           389,
           411,
           433,
           455,
-          587,
+          609,
           390,
           412,
           434,
           456,
           478,
-          588,
+          610,
           413,
           435,
           457,
+          479,
           501,
-          589,
+          611,
           436,
           458,
-          502,
+          480,
           524,
-          566,
-          590,
+          612,
           459,
           481,
-          503,
           525,
-          523,
           547,
-          543,
-          567,
-          591,
+          589,
+          613,
           482,
           504,
           526,
           548,
           546,
           570,
-          544,
-          568,
-          592,
+          566,
+          590,
+          614,
           505,
           527,
           549,
           571,
-          545,
           569,
           593,
+          567,
+          591,
+          615,
           528,
           550,
           572,
           594,
+          568,
+          592,
+          616,
           551,
           573,
           595,
+          617,
           574,
           596,
-          597
+          618,
+          597,
+          619,
+          620
         ],
         "roomSpec" : "CargoRoomExterior",
         "roomValue" : 23642.3224769444
       },
       {
-        "strID" : "6b68d81f-fe38-48d6-8bba-cc643627431a",
+        "strID" : "041377dc-b50c-4895-b0e7-19181b393dc2",
         "bVoid" : false,
         "aTiles" : [
-          78,
-          79,
           101,
-          80,
           102,
-          100,
           124,
-          81,
           103,
           125,
           123,
           147,
-          82,
           104,
           126,
           148,
@@ -7298,100 +7430,98 @@
           149,
           171,
           169,
-          106,
+          193,
           128,
           150,
           172,
           194,
+          192,
           129,
           151,
           173,
           195,
           217,
           152,
+          174,
           196,
           218,
           240,
+          175,
           219,
           241,
-          239,
           263,
           242,
           264,
-          243,
+          262,
+          286,
           265,
-          287
+          287,
+          266,
+          288,
+          310
         ],
         "roomSpec" : "BridgeRoom",
         "roomValue" : 104469.0
       },
       {
-        "strID" : "793202bf-9260-4e65-8f79-b4f97ff470e8",
+        "strID" : "5ce78a61-a9e9-40cc-8ce7-3a29e96431ac",
         "bVoid" : false,
         "aTiles" : [
-          198,
-          199,
           221,
           222,
           244,
           245,
           267,
-          246,
           268,
-          269
+          290,
+          269,
+          291,
+          292
         ],
         "roomSpec" : "Engineering",
         "roomValue" : 9426.19983947277
       },
       {
-        "strID" : "35ad18d8-6479-4fb5-a2e5-e863e57d43c7",
+        "strID" : "0957f7d1-4ec8-4fd1-b8a9-d8854d1a0e96",
         "bVoid" : false,
         "aTiles" : [
-          214,
-          215,
           237,
           238,
-          236,
           260,
           261,
-          259
+          259,
+          283,
+          284,
+          282
         ],
         "roomSpec" : "Engineering",
         "roomValue" : 11103.2740296624
       },
       {
-        "strID" : "c12032ef-6642-4b2e-ab85-8adb3314b7b3",
+        "strID" : "c1eb6e94-2b61-44ac-a706-d2355848c244",
         "bVoid" : false,
         "aTiles" : [
-          305,
-          306,
           328,
-          307,
           329,
           351,
-          308,
           330,
           352,
           374,
-          309,
           331,
           353,
           375,
           397,
-          310,
           332,
           354,
           376,
           398,
           420,
-          311,
           333,
           355,
           377,
           399,
           421,
           443,
-          312,
           334,
           356,
           378,
@@ -7399,7 +7529,6 @@
           422,
           444,
           466,
-          313,
           335,
           357,
           379,
@@ -7407,7 +7536,7 @@
           423,
           445,
           467,
-          314,
+          489,
           336,
           358,
           380,
@@ -7416,7 +7545,6 @@
           446,
           468,
           490,
-          315,
           337,
           359,
           381,
@@ -7425,6 +7553,7 @@
           447,
           469,
           491,
+          513,
           338,
           360,
           382,
@@ -7432,12 +7561,15 @@
           426,
           448,
           470,
+          492,
+          514,
           361,
           383,
           405,
           427,
           449,
           471,
+          493,
           384,
           406,
           428,
@@ -7448,30 +7580,35 @@
           429,
           451,
           473,
+          495,
           430,
           452,
           474,
+          496,
           453,
           475,
           497,
           476,
           498,
-          494
+          520,
+          499,
+          521,
+          517
         ],
         "roomSpec" : "CargoRoom",
         "roomValue" : 16666.8006622791
       },
       {
-        "strID" : "4dff052b-08ba-4aa6-809d-e4f9854c90b1",
+        "strID" : "f15c6f08-8e56-45b1-bd56-7fdbe48a341a",
         "bVoid" : false,
         "aTiles" : [
-          516,
-          517,
           539,
-          518,
           540,
+          562,
           541,
-          563
+          563,
+          564,
+          586
         ],
         "roomSpec" : "Airlock",
         "roomValue" : 119673.0
@@ -7495,8 +7632,8 @@
     "description"      : "The LB-62 enjoyed over a decade of being the vessel of choice for supporting EVA operations involving large numbers of workers, but rapidly fell out of favor after the introduction of the cheaper LB-77a model.",
     "designation"      : "Labor Barge",
     "publicName"       : "$TEMPLATE",
-    "dimensions"       : "7.36m x 8.32m",
-    "fShallowMass"     : 7544.8868,
+    "dimensions"       : "7.36m x 8.64m",
+    "fShallowMass"     : 7542.5798,
     "fShallowRCSRemass" : 749.2463964,
     "fShallowRCSRemassMax" : 749.364694715254,
     "fShallowFusionRemain" : 0.0,
@@ -7513,7 +7650,7 @@
       "25ebb0ed-e2d4-40fe-a5a1-b941d7f2ae27"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "V-SY4X",
+    "strXPDR"               : "M-KQJJ",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,
@@ -7526,7 +7663,7 @@
     "ShipType"              : 0,
     "nConstructionProgress" : 100,
     "nInitConstructionProgress" : 0,
-    "nRows"                     : 26,
+    "nRows"                     : 27,
     "nCols"                     : 23,
     "nGridRotation"             : 0,
     "bRemove"                   : false
