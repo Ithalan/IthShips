@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthMSSFreighter",
-    "strRegID" : "J-4K6",
+    "strRegID" : "H-UCYH",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 11.18817,
+    "fTimeEngaged"     : 14.7281,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-J-4K6",
+      "strID" : "CO-H-UCYH",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "J-4K6",
+      "strCondID" : "H-UCYH",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -42,10 +42,12 @@
         "M-2U8V",
         "V-RTR",
         "H-WV7E",
-        "J-4K6"
+        "J-4K6",
+        "E-QRF",
+        "H-UCYH"
       ],
-      "strFriendlyName" : "CO-J-4K6",
-      "strRegIDLast"    : "J-4K6",
+      "strFriendlyName" : "CO-H-UCYH",
+      "strRegIDLast"    : "H-UCYH",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -1874,24 +1876,24 @@
         "fX"      : -16.0,
         "fY"      : -43.0,
         "fRotation" : 0.0,
-        "strID"     : "e4a11f40-5193-4076-8093-1c8c9a9cf88d",
+        "strID"     : "3526c9eb-ec06-45ab-8b4d-c668816eae7e",
         "strSlotParentID" : "bc6dcfc8-fcad-422d-ae86-d5d9ad7a95ff"
       },
       {
-        "strName" : "DataVIDFilm03",
+        "strName" : "DataSNDNigerianFolkLore",
         "fX"      : -16.0,
         "fY"      : -43.0,
         "fRotation" : 0.0,
-        "strID"     : "0346b2e4-7e11-4da7-9db4-8b3eb84116b5",
-        "strParentID" : "e4a11f40-5193-4076-8093-1c8c9a9cf88d"
+        "strID"     : "bb7634eb-9213-4987-b20c-d64a36118e4c",
+        "strParentID" : "3526c9eb-ec06-45ab-8b4d-c668816eae7e"
       },
       {
-        "strName" : "DataBINMergaSuspiciousGaps",
+        "strName" : "DataSNDNeverland",
         "fX"      : -16.0,
         "fY"      : -43.0,
         "fRotation" : 0.0,
-        "strID"     : "c5bb9222-70fb-473d-97d6-49cfb95d062f",
-        "strParentID" : "e4a11f40-5193-4076-8093-1c8c9a9cf88d"
+        "strID"     : "c0cb01f4-2c30-4204-b34c-5564ac0adfd8",
+        "strParentID" : "3526c9eb-ec06-45ab-8b4d-c668816eae7e"
       },
       {
         "strName" : "ItmStationNav",
@@ -2070,24 +2072,24 @@
         "fX"      : -15.0,
         "fY"      : -34.0,
         "fRotation" : 0.0,
-        "strID"     : "e0f54212-688b-4550-9eea-aaa9a4ca5acf",
+        "strID"     : "ec182145-2c2f-4e7b-88f0-0f12e359ba32",
         "strSlotParentID" : "76ac6dc9-d427-4842-84a1-ef17c6bf542f"
       },
       {
-        "strName" : "DataIMGXinhua",
+        "strName" : "DataBINPersonalAddressesFortSimpson",
         "fX"      : -15.0,
         "fY"      : -34.0,
         "fRotation" : 0.0,
-        "strID"     : "10632d21-8d96-483c-95e3-66ae3ed779dd",
-        "strParentID" : "e0f54212-688b-4550-9eea-aaa9a4ca5acf"
+        "strID"     : "71615bcc-7d8d-4c00-b0ee-45e65d2aee99",
+        "strParentID" : "ec182145-2c2f-4e7b-88f0-0f12e359ba32"
       },
       {
-        "strName" : "DataSNDRoar",
+        "strName" : "DataTXTMergaLongFingerSerialKiller",
         "fX"      : -15.0,
         "fY"      : -34.0,
         "fRotation" : 0.0,
-        "strID"     : "f0fe027d-02d9-49bc-ae2e-4fb521986dd7",
-        "strParentID" : "e0f54212-688b-4550-9eea-aaa9a4ca5acf"
+        "strID"     : "c225d885-90c7-4bb6-bd7a-5ec3f1b5f90a",
+        "strParentID" : "ec182145-2c2f-4e7b-88f0-0f12e359ba32"
       },
       {
         "strName" : "ItmStationNav",
@@ -9492,7 +9494,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "J-4K6"
+              "H-UCYH"
             ]
           },
           {
@@ -15044,7 +15046,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00601783350154384,
+            "Amount"   : 0.00801783350154384,
             "NegativeValue" : false
           }
         ]
@@ -18345,7 +18347,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00601805151906183,
+            "Amount"   : 0.00801805151906183,
             "NegativeValue" : false
           }
         ]
@@ -21698,83 +21700,188 @@
         "strID"     : "77ddf5b2-eeb7-4391-baa7-12a67a557525"
       },
       {
-        "strName" : "ItmToolSolderingIron01",
+        "strName" : "ItmToolWelder01",
         "fX"      : -0.5,
         "fY"      : -36.5,
         "fRotation" : 0.0,
-        "strID"     : "d3d4cd56-65aa-46eb-af70-c26261307720",
+        "strID"     : "3ed6a136-f066-4f9f-9b6e-0389c4fbff29",
         "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
       },
       {
-        "strName" : "ItmBatteryDrill01",
+        "strName" : "ItmWeaponKnife01",
         "fX"      : -0.5,
         "fY"      : -36.5,
         "fRotation" : 0.0,
-        "strID"     : "b54b4722-414e-4544-a445-a136e7b5aca3",
-        "strParentID" : "d3d4cd56-65aa-46eb-af70-c26261307720",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIBattery",
-              "strFriendlyName",
-              "Battery",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strSubPoint",
-              "ignore",
-              "strCondMonitor01",
-              "IsReadyHeat"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "ItmBackpack03",
-        "fX"      : -0.5,
-        "fY"      : -36.5,
-        "fRotation" : 0.0,
-        "strID"     : "fc4175e1-5703-4256-b234-0898bd88d9d0",
+        "strID"     : "219cfb13-f759-483c-8165-00acd6376b33",
         "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
       },
       {
-        "strName" : "PocketPouchSmall01",
+        "strName" : "ItmHeatSink01",
         "fX"      : -0.5,
         "fY"      : -36.5,
         "fRotation" : 0.0,
-        "strID"     : "56d53008-8c27-4ec2-89fd-0818a493371f",
-        "strSlotParentID" : "fc4175e1-5703-4256-b234-0898bd88d9d0"
-      },
-      {
-        "strName" : "ItmWeaponPistolEnergy01",
-        "fX"      : -0.5,
-        "fY"      : -36.5,
-        "fRotation" : 0.0,
-        "strID"     : "17176712-016b-4b60-b1dd-a3810c73337c",
+        "strID"     : "11fe7d37-7bd8-4c0c-84aa-de34a6e21b0b",
         "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
       },
       {
-        "strName" : "ItmTrencherNachoFiesta",
+        "strName" : "ItmComponentMotor01",
         "fX"      : -0.5,
         "fY"      : -36.5,
         "fRotation" : 0.0,
-        "strID"     : "966763a3-f638-49db-ae25-2c20883157d5",
+        "strID"     : "7c77096d-bf2d-40be-b499-e05f1f722235",
         "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
       },
       {
-        "strName" : "ItmToolScrewDriver01",
+        "strName" : "ItmHeatSink01",
         "fX"      : -0.5,
         "fY"      : -36.5,
         "fRotation" : 0.0,
-        "strID"     : "88c7942b-1f8b-47fe-9abc-0284eb0b9dc5",
+        "strID"     : "d786f045-da54-45a3-84bf-2da082fe9dc5",
         "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
+      },
+      {
+        "strName" : "ItmToolCrowbar01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "064ad1c2-b400-49f2-b297-506f727b7260",
+        "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
+      },
+      {
+        "strName" : "ItmPillBottle03",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "596d2eac-498a-4bd2-984c-8570f0b03c25",
+        "strParentID" : "d00f433f-1220-4777-bf32-13b2508c968f"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "3709fd5a-a58f-4c77-858d-ab8654dd4377",
+        "strParentID" : "596d2eac-498a-4bd2-984c-8570f0b03c25"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "7bc8acab-9528-487c-992b-e17c3f6be69d",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "aa106950-90d0-49a5-9272-612baed39729",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "1b316b22-7e71-48e0-8ebf-9e25023901dc",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "33ae160e-fdb9-4330-82c7-b208504f4aa4",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "33764c28-7470-4e89-8eea-5d88426c2d05",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "17578871-e12c-4fb8-83a6-689de712e41d",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "d211ce4c-9467-4b47-a3d7-4dba7f917a73",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "fd75ee4d-8977-4149-bbff-f3d13b3e1752",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "bc9d6cc9-3306-4654-b795-c1d691ac5ad5",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "4a158f3e-5c81-457d-8cf4-83f79c196dfb",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "b6f75387-b440-4bef-bb71-68823ab6003d",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "0318a270-928d-413b-b932-f141d2e76c59",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "e82f83a2-ae3b-40f4-9283-e5f7dd896dd9",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "bb1e940b-a0b7-4c89-a1be-dd812d291dfd",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.5,
+        "fY"      : -36.5,
+        "fRotation" : 0.0,
+        "strID"     : "2e675343-33b0-42e3-8f35-96afc90d7bc6",
+        "strParentID" : "3709fd5a-a58f-4c77-858d-ab8654dd4377"
       },
       {
         "strName" : "ItmCrate01Lock",
@@ -21809,6 +21916,166 @@
             ]
           }
         ]
+      },
+      {
+        "strName" : "ItmWeaponBaseballBat02",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "2dff188c-9cc4-4be1-ac5d-534716aee346",
+        "strParentID" : "5a6b5ba0-38f6-4f93-8ad5-03a08d9bf170"
+      },
+      {
+        "strName" : "ItmWeaponShiv01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "c0c7d2eb-32ac-49ed-bd6f-2567bfc34277",
+        "strParentID" : "5a6b5ba0-38f6-4f93-8ad5-03a08d9bf170"
+      },
+      {
+        "strName" : "ItmToolCrowbar01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "72157654-7b18-4baf-96e7-1cafe8c151cd",
+        "strParentID" : "5a6b5ba0-38f6-4f93-8ad5-03a08d9bf170"
+      },
+      {
+        "strName" : "ItmPillBottle03",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "d6109c04-ae23-4d05-bc8c-abb754c56311",
+        "strParentID" : "5a6b5ba0-38f6-4f93-8ad5-03a08d9bf170"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "0d0a2183-cb8a-4743-878e-a3f48ecab094",
+        "strParentID" : "d6109c04-ae23-4d05-bc8c-abb754c56311"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "12343e08-24ed-44bb-8eff-f2830446ba59",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "7f1ea960-f697-4db7-95b0-f49382b41302",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "13ea050c-743c-4f44-9b8c-f48b7d0c8c71",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "32201782-c2ca-4dba-9362-0bb582e368ae",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "5a23213d-9368-448c-8059-c452752e2679",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "d7304da9-de3a-4484-976c-4f51ec0e999e",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "957afe5e-8a56-47ff-9f67-2addafab3049",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "6d7b52fd-00a1-4f63-9811-2d746ffdaefa",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "05a6a263-74c4-4f61-9383-bf6b85c1a62c",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "5aeee6f4-6553-4a29-b0c0-f9fa6b0294df",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "ddaabdf7-37e1-422d-b236-0a18763a4ce1",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "c26491b8-25ca-42cd-a99c-6e5f148d106f",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "ee708343-97b5-4543-a23d-00793e6393a0",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "c55b839d-3f5a-49fa-b480-77235ace3677",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
+      },
+      {
+        "strName" : "ItmPillAntibiotic01",
+        "fX"      : -0.4999998,
+        "fY"      : -23.5,
+        "fRotation" : 0.0,
+        "strID"     : "fc195c26-5827-419d-9cad-2da5c7ba33b3",
+        "strParentID" : "0d0a2183-cb8a-4743-878e-a3f48ecab094"
       },
       {
         "strName" : "ItmCrate01Lock",
@@ -21879,107 +22146,84 @@
         ]
       },
       {
-        "strName" : "ItmSplint01",
+        "strName" : "ItmPartsScreen01",
         "fX"      : -0.4999998,
         "fY"      : -15.5,
         "fRotation" : 0.0,
-        "strID"     : "4a775fea-06e0-49fb-9811-7a35dafaf368",
+        "strID"     : "bf6a0310-f1ff-4351-a0bc-f078c6ea5484",
         "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
       },
       {
-        "strName" : "ItmComponentMotor01",
+        "strName" : "ItmComponentMobo01",
         "fX"      : -0.4999998,
         "fY"      : -15.5,
         "fRotation" : 0.0,
-        "strID"     : "4cc20b72-219c-41bc-adfb-018e57fe2919",
+        "strID"     : "2a6045dc-1de6-4f66-b954-83bb163494fb",
         "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
       },
       {
-        "strName" : "ItmHeatSink01",
+        "strName" : "ItmPartsScreen01",
         "fX"      : -0.4999998,
         "fY"      : -15.5,
         "fRotation" : 0.0,
-        "strID"     : "caddb97a-9761-41aa-8c94-ec3e8cf62388",
+        "strID"     : "a6f6145d-2c33-4d23-b409-3dd371469347",
         "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
       },
       {
-        "strName" : "OutfitEVA01",
+        "strName" : "ItmPartsScreen01",
         "fX"      : -0.4999998,
         "fY"      : -15.5,
         "fRotation" : 0.0,
-        "strID"     : "1e2976ee-767d-436c-a91d-4156f8c1123a",
+        "strID"     : "c3f15eba-dbc5-45a3-8a80-5faba88afb02",
         "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
       },
       {
-        "strName" : "PocketClipPoint01",
+        "strName" : "ItmComponentMobo01",
         "fX"      : -0.4999998,
         "fY"      : -15.5,
         "fRotation" : 0.0,
-        "strID"     : "c5705182-cc84-46c9-acc9-ab5b2be8feff",
-        "strSlotParentID" : "1e2976ee-767d-436c-a91d-4156f8c1123a"
-      },
-      {
-        "strName" : "PocketEVABatt01",
-        "fX"      : -0.4999998,
-        "fY"      : -15.5,
-        "fRotation" : 0.0,
-        "strID"     : "691745ff-65eb-45d7-9f08-bbc05294bd97",
-        "strSlotParentID" : "1e2976ee-767d-436c-a91d-4156f8c1123a"
-      },
-      {
-        "strName" : "ItmBattery03",
-        "fX"      : -0.4999998,
-        "fY"      : -15.5,
-        "fRotation" : 0.0,
-        "strID"     : "3dbaaa6e-7ba5-4d4c-99cf-23f663398edb",
-        "strParentID" : "691745ff-65eb-45d7-9f08-bbc05294bd97",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIBattery",
-              "strFriendlyName",
-              "Battery",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strSubPoint",
-              "ignore",
-              "strCondMonitor01",
-              "IsReadyHeat"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "PocketEVAO201",
-        "fX"      : -0.4999998,
-        "fY"      : -15.5,
-        "fRotation" : 0.0,
-        "strID"     : "65156ef8-5c38-40cc-9890-8d626d46fcbe",
-        "strSlotParentID" : "1e2976ee-767d-436c-a91d-4156f8c1123a"
-      },
-      {
-        "strName" : "PocketEVACO201",
-        "fX"      : -0.4999998,
-        "fY"      : -15.5,
-        "fRotation" : 0.0,
-        "strID"     : "a7942dcc-714d-4ab2-a831-98926fd61613",
-        "strSlotParentID" : "1e2976ee-767d-436c-a91d-4156f8c1123a"
-      },
-      {
-        "strName" : "OutfitHelmet03",
-        "fX"      : -0.4999998,
-        "fY"      : -15.5,
-        "fRotation" : 0.0,
-        "strID"     : "639d7513-b4fe-4d7a-8acf-9b70b16e0757",
+        "strID"     : "a2628480-38c3-464c-bc31-a50d32eb8079",
         "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
+      },
+      {
+        "strName" : "ItmCigDamaskRoseBox01",
+        "fX"      : -0.4999998,
+        "fY"      : -15.5,
+        "fRotation" : 0.0,
+        "strID"     : "07a3f3b1-44c7-4dbc-8d8d-52898dff28b9",
+        "strParentID" : "bde6ea61-2ff6-407f-b2a4-dd77c549016c"
+      },
+      {
+        "strName" : "ItmCigDamaskRose01",
+        "fX"      : -0.4999998,
+        "fY"      : -15.5,
+        "fRotation" : 0.0,
+        "strID"     : "898dfb61-0334-4295-b40a-f1afdf1ba980",
+        "strParentID" : "07a3f3b1-44c7-4dbc-8d8d-52898dff28b9"
+      },
+      {
+        "strName" : "ItmCigDamaskRose01",
+        "fX"      : -0.4999998,
+        "fY"      : -15.5,
+        "fRotation" : 0.0,
+        "strID"     : "11c46795-ed35-4ddf-91a6-761c8afb8b75",
+        "strParentID" : "898dfb61-0334-4295-b40a-f1afdf1ba980"
+      },
+      {
+        "strName" : "ItmCigDamaskRose01",
+        "fX"      : -0.4999998,
+        "fY"      : -15.5,
+        "fRotation" : 0.0,
+        "strID"     : "7db07c04-cc9a-4b0e-8e76-4017dc7cb291",
+        "strParentID" : "898dfb61-0334-4295-b40a-f1afdf1ba980"
+      },
+      {
+        "strName" : "ItmCigDamaskRose01",
+        "fX"      : -0.4999998,
+        "fY"      : -15.5,
+        "fRotation" : 0.0,
+        "strID"     : "d2327ac7-3044-4973-b586-e4e23598074e",
+        "strParentID" : "898dfb61-0334-4295-b40a-f1afdf1ba980"
       },
       {
         "strName" : "ItmCrate01Lock",
@@ -26850,95 +27094,217 @@
         ]
       },
       {
+        "strName" : "SysLootSpawner",
+        "fX"      : -16.0,
+        "fY"      : -43.0,
+        "fRotation" : 0.0,
+        "strID"     : "da634640-c36d-4972-9f21-503bc38a4146",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmNavStationModsPod",
+              "strRange",
+              "0",
+              "strCount",
+              "1",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "SysLootSpawner",
+        "fX"      : -15.0,
+        "fY"      : -34.0,
+        "fRotation" : 0.0,
+        "strID"     : "8da247f0-41d3-4116-8fff-0402f3e74c7c",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmNavStationModsTorchShip",
+              "strRange",
+              "0",
+              "strCount",
+              "1",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
+      },
+      {
         "strName" : "Compartment",
         "fX"      : -21.0,
         "fY"      : 4.0,
         "fRotation" : 0.0,
-        "strID"     : "55c90b51-b4b6-4511-a404-0929492e3347"
+        "strID"     : "a4967d85-001d-4836-a8ea-4ec120d10d79"
       },
       {
         "strName" : "Compartment",
         "fX"      : 0.0,
         "fY"      : 2.0,
         "fRotation" : 0.0,
-        "strID"     : "36c4ac27-95c1-4cba-abe9-3051bfdb47a3"
+        "strID"     : "6d457a0e-0178-4571-b4f6-0c510d983fb5"
       },
       {
         "strName" : "Compartment",
         "fX"      : -6.0,
         "fY"      : 0.0,
         "fRotation" : 0.0,
-        "strID"     : "d95be5a9-863a-466d-b2b6-26d71773ac04"
+        "strID"     : "10241a88-8870-4be1-af70-7303db7a7505"
       },
       {
         "strName" : "Compartment",
         "fX"      : 4.0,
         "fY"      : 0.0,
         "fRotation" : 0.0,
-        "strID"     : "89fbfbab-ab52-45ce-9416-680464ff9cf2"
+        "strID"     : "d7e9622c-1877-47fe-9c5c-ca1e1349b2fa"
       },
       {
         "strName" : "Compartment",
         "fX"      : -8.0,
         "fY"      : -3.0,
         "fRotation" : 0.0,
-        "strID"     : "07a723f2-9317-4d7d-8218-63435f308f94"
+        "strID"     : "76bbb3a5-f7f3-4616-ae36-baae4a5b7a14"
       },
       {
         "strName" : "Compartment",
         "fX"      : -1.0,
         "fY"      : -5.0,
         "fRotation" : 0.0,
-        "strID"     : "f93b47d5-6ee6-4b25-8065-0fcdcc7416a0"
+        "strID"     : "7acf57d9-e229-4749-a47c-37f99836a57a"
       },
       {
         "strName" : "Compartment",
         "fX"      : -11.0,
         "fY"      : -12.0,
         "fRotation" : 0.0,
-        "strID"     : "7bfa8971-bff7-45fa-a9d4-b676cce2d272"
+        "strID"     : "6af786c0-e03f-4304-a273-e20db7417c00"
       },
       {
         "strName" : "Compartment",
         "fX"      : -5.0,
         "fY"      : -12.0,
         "fRotation" : 0.0,
-        "strID"     : "8db5eac1-521e-4006-b066-35ecb7a31c87"
+        "strID"     : "0c5b79c9-ee9c-46a1-928f-b51a3fa1cf97"
       },
       {
         "strName" : "Compartment",
         "fX"      : -11.0,
         "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "c5feb520-34f2-46f6-9556-9a0bea979d9b"
+        "strID"     : "2fe3da12-8584-4fb7-a23a-79c369458762"
       },
       {
         "strName" : "Compartment",
         "fX"      : -11.0,
         "fY"      : -24.0,
         "fRotation" : 0.0,
-        "strID"     : "17799913-73ff-494e-a29a-700a5fda059b"
+        "strID"     : "4b14728c-f835-4898-a37a-dc077e358043"
       },
       {
         "strName" : "Compartment",
         "fX"      : -17.0,
         "fY"      : -32.0,
         "fRotation" : 0.0,
-        "strID"     : "0f23fdd5-70f0-4371-b4df-9209d9945f88"
+        "strID"     : "33329fee-5db1-493a-8607-4e86d59c81a4"
       },
       {
         "strName" : "Compartment",
         "fX"      : -19.0,
         "fY"      : -38.0,
         "fRotation" : 0.0,
-        "strID"     : "23bf0060-e2c2-4c7d-a495-f44b27dcddc0"
+        "strID"     : "42689211-11f6-494e-aaf8-13a82c06108b"
       },
       {
         "strName" : "Compartment",
         "fX"      : -5.0,
         "fY"      : -44.0,
         "fRotation" : 0.0,
-        "strID"     : "83a6c2bd-530e-45e5-937f-bb508dff0113"
+        "strID"     : "bbd95ef7-3f66-49cc-bee2-dabffd997fdb"
+      }
+    ],
+    "aShallowPSpecs"   : [
+      {
+        "strName" : "SysLootSpawnerBoarding",
+        "fX"      : 1.0,
+        "fY"      : 0.0,
+        "fRotation" : 0.0,
+        "strID"     : "2aa85e73-32b4-4392-89ff-8ef03f5a5a97",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Pspec",
+              "strLoot",
+              "Boarding",
+              "strRange",
+              "1",
+              "strCount",
+              "0",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
       }
     ],
     "vShipPos"         : {
@@ -26947,12 +27313,12 @@
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.0039920925921709,
-      "vPosy"     : -0.0058241909652039,
+      "vPosx"     : -0.0950934602313042,
+      "vPosy"     : -0.139987117685912,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -0.000709631923978144,
-      "vVelY"      : -0.00103530519877254,
+      "vVelX"      : -0.0105005971032389,
+      "vVelY"      : -0.0154580166351412,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -26967,27 +27333,33 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627498864.4472,
-        65627498862.4322,
-        65627498860.4236,
-        65627498858.4184,
-        65627498856.4099,
-        65627498854.4023
+        65627498868.4587,
+        65627498866.4494,
+        65627498864.4438,
+        65627498862.443,
+        65627498860.4207,
+        65627498858.4191,
+        65627498856.4041,
+        65627498854.3966
       ],
       "aPathRecentX"   : [
-        -0.0034173516682603,
-        -0.00198745782581232,
-        -0.000562053631196541,
-        -2.45077791355491E-05,
-        -6.27335426276755E-06,
+        -0.0916087940461009,
+        -0.0705089519929325,
+        -0.0494458031966306,
+        -0.0284367366543614,
+        -0.00719864359928127,
+        -2.45906346717124E-05,
+        -6.27283676613507E-06,
         -1.22571180862342E-07
       ],
       "aPathRecentY"   : [
-        -0.00498568265354811,
-        -0.00289956380973925,
-        -0.000819995059838101,
-        -3.57537086072321E-05,
-        -9.15201591445651E-06,
+        -0.134857311511159,
+        -0.103796057922435,
+        -0.0727888207833906,
+        -0.0418611985818862,
+        -0.0105964245393852,
+        -3.58745840695094E-05,
+        -9.15126090318874E-06,
         -1.78815523968264E-07
       ],
       "vAccLift"       : {
@@ -27012,7 +27384,7 @@
     },
     "aRooms"           : [
       {
-        "strID" : "55c90b51-b4b6-4511-a404-0929492e3347",
+        "strID" : "a4967d85-001d-4836-a8ea-4ec120d10d79",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -28042,7 +28414,7 @@
         "roomValue" : 20689.0
       },
       {
-        "strID" : "36c4ac27-95c1-4cba-abe9-3051bfdb47a3",
+        "strID" : "6d457a0e-0178-4571-b4f6-0c510d983fb5",
         "bVoid" : false,
         "aTiles" : [
           101,
@@ -28074,7 +28446,7 @@
         "roomValue" : 177046.402638197
       },
       {
-        "strID" : "d95be5a9-863a-466d-b2b6-26d71773ac04",
+        "strID" : "10241a88-8870-4be1-af70-7303db7a7505",
         "bVoid" : false,
         "aTiles" : [
           175,
@@ -28094,7 +28466,7 @@
         "roomValue" : 10605.5997190475
       },
       {
-        "strID" : "89fbfbab-ab52-45ce-9416-680464ff9cf2",
+        "strID" : "d7e9622c-1877-47fe-9c5c-ca1e1349b2fa",
         "bVoid" : false,
         "aTiles" : [
           185,
@@ -28153,10 +28525,10 @@
           390
         ],
         "roomSpec" : "Engineering",
-        "roomValue" : 152851.297396958
+        "roomValue" : 178655.342388285
       },
       {
-        "strID" : "07a723f2-9317-4d7d-8218-63435f308f94",
+        "strID" : "76bbb3a5-f7f3-4616-ae36-baae4a5b7a14",
         "bVoid" : false,
         "aTiles" : [
           293,
@@ -28219,7 +28591,7 @@
         "roomValue" : 9413.0
       },
       {
-        "strID" : "f93b47d5-6ee6-4b25-8065-0fcdcc7416a0",
+        "strID" : "7acf57d9-e229-4749-a47c-37f99836a57a",
         "bVoid" : false,
         "aTiles" : [
           380,
@@ -28862,10 +29234,10 @@
           1902
         ],
         "roomSpec" : "Engineering",
-        "roomValue" : 411276.201553137
+        "roomValue" : 411276.201617456
       },
       {
-        "strID" : "7bfa8971-bff7-45fa-a9d4-b676cce2d272",
+        "strID" : "6af786c0-e03f-4304-a273-e20db7417c00",
         "bVoid" : false,
         "aTiles" : [
           650,
@@ -28898,7 +29270,7 @@
         "roomValue" : 9253.79975485802
       },
       {
-        "strID" : "8db5eac1-521e-4006-b066-35ecb7a31c87",
+        "strID" : "0c5b79c9-ee9c-46a1-928f-b51a3fa1cf97",
         "bVoid" : false,
         "aTiles" : [
           656,
@@ -29045,10 +29417,10 @@
           1731
         ],
         "roomSpec" : "Engineering",
-        "roomValue" : 100057.998296022
+        "roomValue" : 110116.296874931
       },
       {
-        "strID" : "c5feb520-34f2-46f6-9556-9a0bea979d9b",
+        "strID" : "2fe3da12-8584-4fb7-a23a-79c369458762",
         "bVoid" : false,
         "aTiles" : [
           890,
@@ -29081,7 +29453,7 @@
         "roomValue" : 9253.79975485802
       },
       {
-        "strID" : "17799913-73ff-494e-a29a-700a5fda059b",
+        "strID" : "4b14728c-f835-4898-a37a-dc077e358043",
         "bVoid" : false,
         "aTiles" : [
           1130,
@@ -29114,7 +29486,7 @@
         "roomValue" : 9253.79975485802
       },
       {
-        "strID" : "0f23fdd5-70f0-4371-b4df-9209d9945f88",
+        "strID" : "33329fee-5db1-493a-8607-4e86d59c81a4",
         "bVoid" : false,
         "aTiles" : [
           1444,
@@ -29186,10 +29558,10 @@
           1725
         ],
         "roomSpec" : "BridgeRoom",
-        "roomValue" : 257949.0
+        "roomValue" : 257949.000063358
       },
       {
-        "strID" : "23bf0060-e2c2-4c7d-a495-f44b27dcddc0",
+        "strID" : "42689211-11f6-494e-aaf8-13a82c06108b",
         "bVoid" : false,
         "aTiles" : [
           1682,
@@ -29207,7 +29579,7 @@
         "roomValue" : 60702.0
       },
       {
-        "strID" : "83a6c2bd-530e-45e5-937f-bb508dff0113",
+        "strID" : "bbd95ef7-3f66-49cc-bee2-dabffd997fdb",
         "bVoid" : false,
         "aTiles" : [
           1936,
@@ -29431,7 +29803,7 @@
           2509
         ],
         "roomSpec" : "Reactor",
-        "roomValue" : 600674.03644601
+        "roomValue" : 612169.234347059
       }
     ],
     "DMGStatus"        : 0,
@@ -29453,7 +29825,7 @@
     "designation"      : "Freighter",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "12.80m x 21.44m",
-    "fShallowMass"     : 35835.325,
+    "fShallowMass"     : 35792.4346,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,
     "fShallowFusionRemain" : 9E99,
@@ -29471,7 +29843,7 @@
       "59837965-4eeb-4362-afc2-baf0080deaef"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "J-4K6",
+    "strXPDR"               : "H-UCYH",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,
