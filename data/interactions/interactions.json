@@ -1,20 +1,21 @@
 [
   {
     "strName" : "HLVpCGEncIthShipsShipEventsList",
-    "strTitle" : "Ith Ships",
-    "strDesc" : "Ithalan's Starter ships",
+    "strTitle" : "Ithalan's Ships",
+    "strDesc" : "Starter ships from the mod Ithalan's Additonal Ships.",
     "CTTestUs" : "TNotIsImprisoned",
     "aInverse"          : [
-"CGEncShipIthTSTCargoTugIntro",
-"CGEncShipIthMSSRacerIntro"
+      "CGEncShipIthTSTCargoTugIntro",
+      "CGEncShipIthMSSRacerIntro"
     ],
     "fDuration"         : 0.0,
-    "LootCondsUs"         : null,
+    "LootCondsUs"       : null,
     "strThemType"       : "Self"
   },
+
   {
     "strName" : "CGEncShipIthTSTCargoTugIntro",
-    "strTitle" : "Cargo Tug.",
+    "strTitle" : "Testudo Ant",
     "strDesc" : "You come across an advert for a Testudo Ant. It's a small tug usually hauling cargo containers around transport hubs, but it has life support, power and thrusters all the same, and might just be your ticket off OKLG.\n\nOgiso's Register has given this vessel an OSR of \"moderate,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and life support. ",
     "aInverse"          : [
       "CGEncShipSalvagePodCont",
@@ -22,12 +23,12 @@
     ],
     "fDuration"         : 0.0,
     "strThemType"       : "Self",
-    "LootCondsUs"         : null,
+    "LootCondsUs"       : null,
     "LootCTsUs"         : "CGEncShipSalvagePodIntro"
   },
   {
     "strName" : "CGEncShipIthMSSRacerIntro",
-    "strTitle" : "Previously-owned Pleasure Craft.",
+    "strTitle" : "Mobile Space Systems Pi",
     "strDesc" : "Your efforts attract the attention of a stranger who offers you the opportunity to buy a Mobile Space Systems Pi! It's a small pleasure craft with life support, power and quite a lot of thrusters, something that would normally put it far outside your price range. The seller is willing to give you a good deal due to some \"minor damage\" and a poor reputation that the ship has received under the previous owner, but is unwilling to elaborate.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support. ",
     "aInverse"          : [
       "CGEncShipSalvagePodCont",
@@ -35,7 +36,7 @@
     ],
     "fDuration"         : 0.0,
     "strThemType"       : "Self",
-    "LootCondsUs"         : null,
+    "LootCondsUs"       : null,
     "LootCTsUs"         : "CGEncShipSalvagePodIntro"
   },
 
