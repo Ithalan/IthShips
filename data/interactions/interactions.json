@@ -5,8 +5,9 @@
     "strDesc" : "Starter ships from the mod Ithalan's Additonal Ships.",
     "CTTestUs" : "TNotIsImprisoned",
     "aInverse"          : [
-      "CGEncShipIthTSTCargoTugIntro",
-      "CGEncShipIthMSSRacerIntro"
+      "HLVpCGEncShipIthTSTCargoTugIntro",
+      "HLVpCGEncShipIthTSTSalvageTugIntro",
+      "HLVpCGEncShipIthMSSRacerIntro"
     ],
     "fDuration"         : 0.0,
     "LootCondsUs"       : null,
@@ -14,9 +15,9 @@
   },
 
   {
-    "strName" : "CGEncShipIthTSTCargoTugIntro",
+    "strName" : "HLVpCGEncShipIthTSTCargoTugIntro",
     "strTitle" : "Testudo Ant",
-    "strDesc" : "You come across an advert for a Testudo Ant. It's a small tug usually hauling cargo containers around transport hubs, but it has life support, power and thrusters all the same, and might just be your ticket off OKLG.\n\nOgiso's Register has given this vessel an OSR of \"moderate,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and life support. ",
+    "strDesc" : "You come across an advert for a Testudo Ant. It's a small tug usually hauling cargo containers around transport hubs, but it has life support, power and thrusters all the same, and might just be your ticket off OKLG.\n\nOgiso's Register has given this vessel an OSR of \"moderate,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and life support.",
     "aInverse"          : [
       "CGEncShipSalvagePodCont",
       "CGEncShipIthTSTCargoTugTake"
@@ -27,9 +28,62 @@
     "LootCTsUs"         : "CGEncShipSalvagePodIntro"
   },
   {
-    "strName" : "CGEncShipIthMSSRacerIntro",
+    "strName" : "HLVpCGEncShipIthTSTSalvageTugIntro",
+    "strTitle" : "Testudo Caracal",
+    "strDesc" : "You happen across an insolvency auction for the assets of bankrupt independent salvager. Among the items remaining is the salvager's ship, already partially stripped of valuable components but still able to fly. While what remains is still expensive compared to other ships you have been considering, you would not have been able to afford a ship of this size at all otherwise.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support.",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthTSTSalvageTugTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"       : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+  {
+    "strName" : "HLVpCGEncShipIthMSSRacerIntro",
     "strTitle" : "Mobile Space Systems Pi",
-    "strDesc" : "Your efforts attract the attention of a stranger who offers you the opportunity to buy a Mobile Space Systems Pi! It's a small pleasure craft with life support, power and quite a lot of thrusters, something that would normally put it far outside your price range. The seller is willing to give you a good deal due to some \"minor damage\" and a poor reputation that the ship has received under the previous owner, but is unwilling to elaborate.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support. ",
+    "strDesc" : "Your efforts attract the attention of a stranger who offers you the opportunity to buy a Mobile Space Systems Pi! It's a small pleasure craft with life support, power and quite a lot of thrusters, something that would normally put it far outside your price range. The seller is willing to give you a good deal due to some \"minor damage\" and a poor reputation that the ship has received under the previous owner, but is unwilling to elaborate.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support.",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthMSSRacerTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"       : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+
+  {
+    "strName" : "CGEncShipIthTSTCargoTugIntro",
+    "strTitle" : "Cargo Tug.",
+    "strDesc" : "You come across an advert for a Testudo Ant. It's a small tug usually hauling cargo containers around transport hubs, but it has life support, power and thrusters all the same, and might just be your ticket off OKLG.\n\nOgiso's Register has given this vessel an OSR of \"moderate,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and life support.",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthTSTCargoTugTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"       : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+  {
+    "strName" : "CGEncShipIthTSTSalvageTugIntro",
+    "strTitle" : "Partially-salvaged Salvage Tug.",
+    "strDesc" : "You happen across an insolvency auction for the assets of bankrupt independent salvager. Among the items remaining is the salvager's ship, already partially stripped of valuable components but still able to fly. While what remains is still expensive compared to other ships you have been considering, you would not have been able to afford a ship of this size at all otherwise.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support.",
+    "aInverse"          : [
+      "CGEncShipSalvagePodCont",
+      "CGEncShipIthTSTSalvageTugTake"
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "LootCondsUs"       : null,
+    "LootCTsUs"         : "CGEncShipSalvagePodIntro"
+  },
+  {
+    "strName" : "CGEncShipIthMSSRacerIntro",
+    "strTitle" : "Previously-owned Pleasure Craft.",
+    "strDesc" : "Your efforts attract the attention of a stranger who offers you the opportunity to buy a Mobile Space Systems Pi! It's a small pleasure craft with life support, power and quite a lot of thrusters, something that would normally put it far outside your price range. The seller is willing to give you a good deal due to some \"minor damage\" and a poor reputation that the ship has received under the previous owner, but is unwilling to elaborate.\n\nOgiso's Register has given this vessel an OSR of \"low,\" indicating that it is legal for sale but does not possess ship systems beyond basic travel and nominal life support.",
     "aInverse"          : [
       "CGEncShipSalvagePodCont",
       "CGEncShipIthMSSRacerTake"
@@ -44,6 +98,17 @@
     "strName" : "CGEncShipIthTSTCargoTugTake",
     "strTitle" : "Take Ship",
     "strDesc" : "You're now the proud owner of a Testudo Ant, and you can now reach some of the outer derelicts beyond the watchful eye of the yard masters.\n\nNow that you're on your own terms, your next move is up to you. Maybe score a valuable part or two for resale, or reuse? Pull down a platinum tier payout on a gig? Or maybe even discover a ship discarded before its time?\n\nWhatever the case, it beats sweating in a suit all day for someone else's profit. Time to get out there and find your future.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Self",
+    "aLootItms"         :
+    [
+      "addus,ItmShipbreakerLoadout"
+    ]
+  },
+  {
+    "strName" : "CGEncShipIthTSTSalvageTugTake",
+    "strTitle" : "Take Ship",
+    "strDesc" : "You're now the proud owner of a Testudo Caracal. Or most of one, anyway. It can get you places as is, but much of the worth in this investment lies in what the ship has the potential to be, with a bit of loving care.\n\nNow that you're on your own terms, your next move is up to you. Maybe score a valuable part or two for resale, or reuse? Pull down a platinum tier payout on a gig? Or maybe even discover a ship discarded before its time?\n\nWhatever the case, it beats sweating in a suit all day for someone else's profit. Time to get out there and find your future.",
     "fDuration"         : 0.0,
     "strThemType"       : "Self",
     "aLootItms"         :

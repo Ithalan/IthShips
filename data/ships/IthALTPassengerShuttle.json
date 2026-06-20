@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthALTPassengerShuttle",
-    "strRegID" : "V-NBY4",
+    "strRegID" : "O-FZ5D",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 7.877677,
+    "fTimeEngaged"     : 45.3375,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-V-NBY4",
+      "strID" : "CO-O-FZ5D",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "V-NBY4",
+      "strCondID" : "O-FZ5D",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -35,10 +35,11 @@
         "H-NQ11",
         "O-2WUX",
         "E-WZY0",
-        "V-NBY4"
+        "V-NBY4",
+        "O-FZ5D"
       ],
-      "strFriendlyName" : "CO-V-NBY4",
-      "strRegIDLast"    : "V-NBY4",
+      "strFriendlyName" : "CO-O-FZ5D",
+      "strRegIDLast"    : "O-FZ5D",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -2006,7 +2007,7 @@
         ]
       },
       {
-        "strName" : "ItmLitWall1x0Off",
+        "strName" : "ItmLitWall1x0",
         "fX"      : 8.0,
         "fY"      : -10.0,
         "fRotation" : 0.0,
@@ -3530,7 +3531,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "V-NBY4"
+              "O-FZ5D"
             ]
           },
           {
@@ -3561,7 +3562,7 @@
         "fX"      : -9.0,
         "fY"      : -4.0,
         "fRotation" : 0.0,
-        "strID"     : "83b1ab2e-897f-410a-8847-560043d13023",
+        "strID"     : "d926379a-ecf2-47d7-a0f9-0f047d2fc134",
         "strSlotParentID" : "e9ca1c54-da0c-4334-80eb-58c0e93464fd"
       },
       {
@@ -3569,24 +3570,24 @@
         "fX"      : -9.0,
         "fY"      : -4.0,
         "fRotation" : 0.0,
-        "strID"     : "52c91104-5c1b-407d-880d-22795dad558a",
-        "strParentID" : "83b1ab2e-897f-410a-8847-560043d13023"
+        "strID"     : "b7cee9d6-99c2-48c9-94b5-b5314776a47a",
+        "strParentID" : "d926379a-ecf2-47d7-a0f9-0f047d2fc134"
       },
       {
-        "strName" : "DataBINCryptoSmall",
+        "strName" : "DataBINPersonalAddressesNewcal",
         "fX"      : -9.0,
         "fY"      : -4.0,
         "fRotation" : 0.0,
-        "strID"     : "4ee1deb4-83c0-4a5a-9f6c-50e4fe21bef6",
-        "strParentID" : "83b1ab2e-897f-410a-8847-560043d13023"
+        "strID"     : "01fefe12-c576-497b-a398-f6ad56034f9e",
+        "strParentID" : "d926379a-ecf2-47d7-a0f9-0f047d2fc134"
       },
       {
-        "strName" : "DataBINCryptoSmall",
+        "strName" : "DataSNDRoar",
         "fX"      : -9.0,
         "fY"      : -4.0,
         "fRotation" : 0.0,
-        "strID"     : "5ab6b673-571e-4c64-a613-954167e4515c",
-        "strParentID" : "83b1ab2e-897f-410a-8847-560043d13023"
+        "strID"     : "b145bef0-9a16-4b7a-a7af-db7c4dbe5a96",
+        "strParentID" : "d926379a-ecf2-47d7-a0f9-0f047d2fc134"
       },
       {
         "strName" : "ItmStationNav",
@@ -4094,7 +4095,7 @@
         ]
       },
       {
-        "strName" : "ItmCooler01Off",
+        "strName" : "ItmCooler01On",
         "fX"      : 13.0,
         "fY"      : -5.5,
         "fRotation" : 270.0,
@@ -4161,7 +4162,7 @@
         ]
       },
       {
-        "strName" : "ItmHeater01Off",
+        "strName" : "ItmHeater01",
         "fX"      : 9.5,
         "fY"      : -7.5,
         "fRotation" : 90.0,
@@ -4295,7 +4296,7 @@
         ]
       },
       {
-        "strName" : "ItmLitWall1x0OffCustom",
+        "strName" : "ItmLitWall1x0Custom",
         "fX"      : 9.0,
         "fY"      : -8.0,
         "fRotation" : 180.0,
@@ -5516,7 +5517,7 @@
         ]
       },
       {
-        "strName" : "ItmAlarmSmokeOff",
+        "strName" : "ItmAlarmSmokeOnG",
         "fX"      : 12.0,
         "fY"      : -4.0,
         "fRotation" : 270.0,
@@ -6112,46 +6113,53 @@
         ]
       },
       {
+        "strName" : "ItmConduit01",
+        "fX"      : 6.0,
+        "fY"      : -9.0,
+        "fRotation" : 0.0,
+        "strID"     : "41d292dd-13c2-47f4-9deb-83a1419941e7"
+      },
+      {
         "strName" : "Compartment",
         "fX"      : -15.0,
         "fY"      : 6.0,
         "fRotation" : 0.0,
-        "strID"     : "5efce710-1f2d-4ccc-ab7c-f8bfc4e8b65d"
+        "strID"     : "9500f41e-8df1-465b-bcaa-0286de74f7ea"
       },
       {
         "strName" : "Compartment",
         "fX"      : -1.0,
         "fY"      : 4.0,
         "fRotation" : 0.0,
-        "strID"     : "c09ed43c-dff8-4f08-af63-e8f002c5d92d"
+        "strID"     : "68bcbbed-1504-4ae1-adf9-3b925f8dab0b"
       },
       {
         "strName" : "Compartment",
         "fX"      : -11.0,
         "fY"      : -3.0,
         "fRotation" : 0.0,
-        "strID"     : "049765f7-2a4d-4680-bbf7-e73dd04cd824"
+        "strID"     : "62b1f4dd-7767-494c-9b30-e5ca15ecbfac"
       },
       {
         "strName" : "Compartment",
         "fX"      : -3.0,
         "fY"      : -3.0,
         "fRotation" : 0.0,
-        "strID"     : "abb2c306-0b93-46d5-815b-8592c708b51c"
+        "strID"     : "4cf42b50-95e1-4688-841c-8df34074debc"
       },
       {
         "strName" : "Compartment",
         "fX"      : 7.0,
         "fY"      : -3.0,
         "fRotation" : 0.0,
-        "strID"     : "d1b6ef2c-bd07-41ba-a42a-8eb6d757925d"
+        "strID"     : "bd3b990b-e0ec-4325-8b18-f4ab5ccc42b0"
       },
       {
         "strName" : "Compartment",
         "fX"      : -2.0,
         "fY"      : -7.0,
         "fRotation" : 0.0,
-        "strID"     : "dd775055-eab2-4d60-99cf-39389a124b93"
+        "strID"     : "8ae17df2-7e19-42d9-b183-b5696e9830e3"
       }
     ],
     "aShallowPSpecs"   : [
@@ -6202,12 +6210,12 @@
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.000344834969087214,
-      "vPosy"     : -0.000503083116611873,
+      "vPosx"     : -0.00760351576294321,
+      "vPosy"     : -0.0110928076903986,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -0.000127412351399141,
-      "vVelY"      : -0.000185884040299123,
+      "vVelX"      : -0.000190046208741129,
+      "vVelY"      : -0.00027725942212183,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -6222,22 +6230,70 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627498860.3616,
-        65627498858.3568,
-        65627498856.3279,
-        65627498854.3227
+        65627498898.4719,
+        65627498896.4599,
+        65627498894.4577,
+        65627498892.4478,
+        65627498890.4468,
+        65627498888.4393,
+        65627498886.4308,
+        65627498884.4209,
+        65627498882.4088,
+        65627498880.4045,
+        65627498878.3891,
+        65627498876.3842,
+        65627498874.3717,
+        65627498872.3674,
+        65627498870.3609,
+        65627498868.3504,
+        65627498866.3407,
+        65627498864.3395,
+        65627498862.3315,
+        65627498860.3294
       ],
       "aPathRecentX"   : [
-        -0.000142027717167875,
-        -2.35998148048526E-05,
-        -5.79949591883437E-06,
-        -6.80827687087382E-08
+        -0.00742650716350917,
+        -0.00704413106034395,
+        -0.00666361751184134,
+        -0.00628164090221588,
+        -0.00590135439047938,
+        -0.0055198232043387,
+        -0.00513811315829262,
+        -0.00475614517647165,
+        -0.00437373730124107,
+        -0.0039928189310801,
+        -0.0036097816023332,
+        -0.00322874695377999,
+        -0.00284627426865213,
+        -0.00246534067911402,
+        -0.00208399312892967,
+        -0.00170188035369264,
+        -0.00131989569143993,
+        -0.000939508262016884,
+        -0.000557793562503512,
+        -0.000177034267949953
       ],
       "aPathRecentY"   : [
-        -0.000207204177412839,
-        -3.44291041744233E-05,
-        -8.46071742981918E-06,
-        -9.93239672997515E-08
+        -0.010834568905659,
+        -0.0102767183802577,
+        -0.00972158514573457,
+        -0.00916431744357793,
+        -0.00860951543419754,
+        -0.00805289756272612,
+        -0.00749601875159005,
+        -0.00693876363658385,
+        -0.00638086675874901,
+        -0.00582514292776233,
+        -0.00526632773685396,
+        -0.00471043426670475,
+        -0.00415244283736863,
+        -0.00359669680275395,
+        -0.00304034683875743,
+        -0.00248288048387351,
+        -0.00192560103370427,
+        -0.00137065179498722,
+        -0.000813766194903344,
+        -0.000258274440232193
       ],
       "vAccLift"       : {
         "x" : 0.0,
@@ -6261,7 +6317,7 @@
     },
     "aRooms"           : [
       {
-        "strID" : "5efce710-1f2d-4ccc-ab7c-f8bfc4e8b65d",
+        "strID" : "9500f41e-8df1-465b-bcaa-0286de74f7ea",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -6632,7 +6688,7 @@
         "roomValue" : 347938.0
       },
       {
-        "strID" : "c09ed43c-dff8-4f08-af63-e8f002c5d92d",
+        "strID" : "68bcbbed-1504-4ae1-adf9-3b925f8dab0b",
         "bVoid" : false,
         "aTiles" : [
           76,
@@ -6662,7 +6718,7 @@
         "roomValue" : 135021.0
       },
       {
-        "strID" : "049765f7-2a4d-4680-bbf7-e73dd04cd824",
+        "strID" : "62b1f4dd-7767-494c-9b30-e5ca15ecbfac",
         "bVoid" : false,
         "aTiles" : [
           283,
@@ -6704,7 +6760,7 @@
         "roomValue" : 84942.75
       },
       {
-        "strID" : "abb2c306-0b93-46d5-815b-8592c708b51c",
+        "strID" : "4cf42b50-95e1-4688-841c-8df34074debc",
         "bVoid" : false,
         "aTiles" : [
           291,
@@ -6751,7 +6807,7 @@
         "roomValue" : 36314.5994406998
       },
       {
-        "strID" : "d1b6ef2c-bd07-41ba-a42a-8eb6d757925d",
+        "strID" : "bd3b990b-e0ec-4325-8b18-f4ab5ccc42b0",
         "bVoid" : false,
         "aTiles" : [
           301,
@@ -6794,7 +6850,7 @@
         "roomValue" : 46789.1987605095
       },
       {
-        "strID" : "dd775055-eab2-4d60-99cf-39389a124b93",
+        "strID" : "8ae17df2-7e19-42d9-b183-b5696e9830e3",
         "bVoid" : false,
         "aTiles" : [
           416,
@@ -6846,7 +6902,7 @@
     "designation"      : "Passenger Shuttle",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "9.92m x 6.72m",
-    "fShallowMass"     : 4995.85,
+    "fShallowMass"     : 4996.35,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,
     "fShallowFusionRemain" : 0.0,
@@ -6863,7 +6919,7 @@
       "aad95b88-596e-4fd4-b863-132527fdd290"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "V-NBY4",
+    "strXPDR"               : "O-FZ5D",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,
