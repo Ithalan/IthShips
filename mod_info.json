@@ -4,7 +4,7 @@
     "strAuthor" : "Ithalan",
     "strModURL" : "https://github.com/Ithalan/IthShips",
     "strGameVersion" : "0.15.0.38",
-    "strModVersion"  : "1.4.2",
+    "strModVersion"  : "1.4.3",
     "strNotes"       : "Adds a bunch of extra ship models to the game that can appear either as derelicts or at the ship broker. Three of the ships can also be offered as starting ships.",
     "strWorkshopID"  : "3739343366"
   }
