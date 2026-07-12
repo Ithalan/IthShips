@@ -48,7 +48,7 @@
   {
     "strName" : "RandomDerelictIth",
     "aCOs"    : [
-      "IthALTPassengerShuttle=0.1x1|IthALTSurveyFlyer=0.05x1|IthALTGunship=0.01x1|IthALTMedicalTransport=0.02x1|IthMSSRacer=0.1x1|IthMSSFreighter=0.02x1|IthRKCargoTug=0.1x1|IthRKLaborBarge=0.1x1|IthRKCourier=0.05x1|IthRKCourierArmed=0.05x1|IthTSTCargoTug=0.1x1|IthTSTCargoFlyer=0.05x1|IthTSTCargoTransport=0.05x1|IthTSTSalvageTug=0.1x1|IthVHCourier=0.05x1|IthVHPleasureCraft=0.05x1"
+      "IthALTPassengerShuttle=0.1x1|IthALTSurveyFlyer=0.05x1|IthALTGunship=0.01x1|IthALTMedicalTransport=0.02x1|IthMSSRacer=0.05x1|IthMSSCargoFlyer=0.05x1|IthMSSFreighter=0.02x1|IthRKCargoTug=0.1x1|IthRKLaborBarge=0.1x1|IthRKCourier=0.05x1|IthRKCourierArmed=0.05x1|IthTSTCargoTug=0.1x1|IthTSTCargoFlyer=0.05x1|IthTSTCargoTransport=0.05x1|IthTSTSalvageTug=0.1x1|IthVHCourier=0.05x1|IthVHPleasureCraft=0.05x1"
     ],
     "aLoots"  : [
     ],

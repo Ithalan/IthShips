@@ -15,27 +15,28 @@ If you spot any errors, typos or oversights, feel free to report them and I'll s
 Installation Instructions: Download as a zip file from the Github repo, then unzip into your Ostranauts mod folder and add the mod name to your loading_order.json
 
 --- Ryokka ---
-LB-62			- Labor Barge (x-6-D-Medium)
-TS-20			- Patrol Vessel (x-4-D-Medium)
-TS-20b			- Courier (x-4-D-Medium)
-TR-41n			- Cargo Tug (x-3-E-Lunamax)
+LB-62			- Labor Barge (6-D-Medium)
+TS-20			- Patrol Vessel (4-D-Medium)
+TS-20b			- Courier (4-D-Medium)
+TR-41n			- Cargo Tug (3-E-Lunamax)
 
 --- Testudo ---
-Ant				- Cargo Tug (x-2-D-Medium)
-Caracal			- Salvage Tug (x-3-D-Medium)
-Whisper Mk. IV	- Cargo Transport (x-5-E-Lunamax)
-Elephant		- Cargo Transport (x-6-E-Very Large)
+Ant				- Cargo Tug (2-D-Medium)
+Caracal			- Salvage Tug (3-D-Medium)
+Whisper Mk. IV	- Cargo Transport (5-E-Lunamax)
+Elephant		- Cargo Transport (6-E-Very Large)
 
 --- Mobile Space Systems ---
-Pi				- Pleasure Craft (D-2-B-Medium)
-Columbus		- Freighter (x-11-E-Titanmax)
+Pi				- Pleasure Craft (2-B-Medium)
+Corax			- Prototype Transport (7-E-Ceresmax)
+Columbus		- Freighter (11-E-Titanmax)
 
 --- Van Hummel ---
-Chariot			- Courier (x-6-D-Lunamax)
-Stargazer		- Pleasure Craft (x-8-E-Ceresmax)
+Chariot			- Courier (6-D-Lunamax)
+Stargazer		- Pleasure Craft (8-E-Ceresmax)
 
 --- Altai ---
-Mantis			- Passenger Shuttle (D-5-x-Medium)
-Orchid			- Survey (x-7-D-Lunamax)
-Dragonfly		- Gunship (x-10-E-Titanmax)
-Kublai			- Medical Transport (x-13-E-Titanmax)
+Mantis			- Passenger Shuttle (5-C-Medium)
+Orchid			- Survey (7-D-Lunamax)
+Dragonfly		- Gunship (10-E-Titanmax)
+Kublai			- Medical Transport (13-E-Titanmax)
