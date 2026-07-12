@@ -41,7 +41,7 @@
     "aCOs"    : [
     ],
     "aLoots"  : [
-      "RandomDerelictSmall=0.25x1|RandomDerelictMedium=0.3x1|RandomDerelictBig=0.3x1|RandomDerelictIth=0.15x1"
+      "RandomDerelictSmall=0.20x1|RandomDerelictMedium=0.25x1|RandomDerelictBig=0.20x1|RandomDerelictIth=0.35x1"
     ],
     "strType" : "ship"
   },
