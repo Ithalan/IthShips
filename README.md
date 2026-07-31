@@ -32,6 +32,7 @@ Corax			- Prototype Transport (7-E-Ceresmax)
 Columbus		- Freighter (11-E-Titanmax)
 
 --- Van Hummel ---
+Mariner 207X	- Pleasure Yacht (4-D-Medium)
 Chariot			- Courier (6-D-Lunamax)
 Stargazer		- Pleasure Craft (8-E-Ceresmax)
 
