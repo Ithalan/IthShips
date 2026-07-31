@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthVHYacht",
-    "strRegID" : "V-VDG",
+    "strRegID" : "O-M81",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 180.9549,
+    "fTimeEngaged"     : 10.51822,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-V-VDG",
+      "strID" : "CO-O-M81",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "V-VDG",
+      "strCondID" : "O-M81",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -33,10 +33,11 @@
         "M-F0TG",
         "J-7DJ",
         "B-8NW",
-        "V-VDG"
+        "V-VDG",
+        "O-M81"
       ],
-      "strFriendlyName" : "CO-V-VDG",
-      "strRegIDLast"    : "V-VDG",
+      "strFriendlyName" : "CO-O-M81",
+      "strRegIDLast"    : "O-M81",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -5061,24 +5062,24 @@
         "fX"      : 3.0,
         "fY"      : -8.0,
         "fRotation" : 0.0,
-        "strID"     : "4df07cc1-9c3d-489e-94b1-0fd8dba9000d",
+        "strID"     : "ba73c65f-8b51-4682-818e-479180631661",
         "strSlotParentID" : "06ed3a31-4769-4f78-9481-e4b0e4f1182b"
       },
       {
-        "strName" : "DataBINPersonalAddressesVoltaire",
+        "strName" : "DataBINPersonalAddressesAtlantis",
         "fX"      : 3.0,
         "fY"      : -8.0,
         "fRotation" : 0.0,
-        "strID"     : "9feeed14-e530-4f54-8f94-e41fa28f9687",
-        "strParentID" : "4df07cc1-9c3d-489e-94b1-0fd8dba9000d"
+        "strID"     : "b6177482-ae85-4bf3-8777-1e30d0b367e3",
+        "strParentID" : "ba73c65f-8b51-4682-818e-479180631661"
       },
       {
-        "strName" : "DataBINCryptoMed",
+        "strName" : "DataVIDVlog01",
         "fX"      : 3.0,
         "fY"      : -8.0,
         "fRotation" : 0.0,
-        "strID"     : "d11e0820-689f-4259-9694-86ce274d9afc",
-        "strParentID" : "4df07cc1-9c3d-489e-94b1-0fd8dba9000d"
+        "strID"     : "e103c4c0-d951-4f3e-9f21-5d01ab93c0ce",
+        "strParentID" : "ba73c65f-8b51-4682-818e-479180631661"
       },
       {
         "strName" : "ItmStationNav",
@@ -5687,7 +5688,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "V-VDG"
+              "O-M81"
             ]
           },
           {
@@ -8418,39 +8419,53 @@
         "strID"     : "de24ae64-8e54-40de-9525-02552bcd9ba7"
       },
       {
+        "strName" : "ItmConduit01",
+        "fX"      : -2.0,
+        "fY"      : -12.0,
+        "fRotation" : 0.0,
+        "strID"     : "57683be4-3341-481a-960a-c3073fd0479a"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : -1.0,
+        "fY"      : -12.0,
+        "fRotation" : 0.0,
+        "strID"     : "62341017-23c5-43c8-8b99-02ec5fc69e70"
+      },
+      {
         "strName" : "Compartment",
         "fX"      : -10.0,
         "fY"      : 16.0,
         "fRotation" : 0.0,
-        "strID"     : "f1d7066f-c5a8-4284-ac42-79583e5b1d3c"
+        "strID"     : "2f942c85-6ad7-4136-8a05-21458546765e"
       },
       {
         "strName" : "Compartment",
         "fX"      : -1.0,
         "fY"      : 14.0,
         "fRotation" : 0.0,
-        "strID"     : "21052a23-8aef-44d9-91fb-eac6d2b03c77"
+        "strID"     : "4768ddef-8f3f-41c6-8d02-0fda08f435eb"
       },
       {
         "strName" : "Compartment",
         "fX"      : -5.0,
         "fY"      : 10.0,
         "fRotation" : 0.0,
-        "strID"     : "27dd9d60-4bce-4aa4-935a-15ccba4fb905"
+        "strID"     : "f186b4af-731c-4eca-94d9-5b82b790c0d7"
       },
       {
         "strName" : "Compartment",
         "fX"      : 3.0,
         "fY"      : -2.0,
         "fRotation" : 0.0,
-        "strID"     : "b5164f15-9fff-410a-a8e2-567821828a1e"
+        "strID"     : "2f7de957-f031-4f5b-8dd4-c73f8b487517"
       },
       {
         "strName" : "Compartment",
         "fX"      : -6.0,
         "fY"      : -7.0,
         "fRotation" : 0.0,
-        "strID"     : "214ae53c-8559-484c-b151-0f6183c0a61b"
+        "strID"     : "4015f4b0-d03b-4ee4-b2ec-72b302f0439e"
       }
     ],
     "aShallowPSpecs"   : [
@@ -8541,12 +8556,12 @@
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.0588662177067881,
-      "vPosy"     : -0.0858803190896104,
+      "vPosx"     : -0.0316146436793466,
+      "vPosy"     : -0.0461275429156742,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -0.000335483895601095,
-      "vVelY"      : -0.000489439711863418,
+      "vVelX"      : -0.00647337633554197,
+      "vVelY"      : -0.00944502223054565,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -8561,70 +8576,28 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627499033.2664,
-        65627499031.248,
-        65627499029.2336,
-        65627499027.1944,
-        65627499025.183,
-        65627499023.1549,
-        65627499021.1486,
-        65627499019.1482,
-        65627499017.1422,
-        65627499015.1302,
-        65627499013.1241,
-        65627499011.1145,
-        65627499009.1022,
-        65627499007.0992,
-        65627499005.0922,
-        65627499003.085,
-        65627499001.0788,
-        65627498999.0769,
-        65627498997.0639,
-        65627498995.0561
+        65627498864.4083,
+        65627498862.4042,
+        65627498860.4016,
+        65627498858.3905,
+        65627498856.3868,
+        65627498854.3798
       ],
       "aPathRecentX"   : [
-        -0.0582651825694502,
-        -0.057587970504309,
-        -0.0569122002071067,
-        -0.0562279480626759,
-        -0.0555531794358355,
-        -0.0548726630529551,
-        -0.0541995780007566,
-        -0.0535284056292666,
-        -0.0528554106347044,
-        -0.0521803570648241,
-        -0.0515073135080229,
-        -0.0508331339211657,
-        -0.0501579840690841,
-        -0.0494859719170568,
-        -0.0488126115797201,
-        -0.0481391756837056,
-        -0.0474660920985922,
-        -0.0467944044476176,
-        -0.0461190487017166,
-        -0.0454454741627118
+        -0.0304929092004506,
+        -0.0175199626585753,
+        -0.00455563978959513,
+        -2.42066746211948E-05,
+        -6.17762572357284E-06,
+        -1.10443964166089E-07
       ],
       "aPathRecentY"   : [
-        -0.0850034648849952,
-        -0.0840154756480179,
-        -0.0830295898159844,
-        -0.0820313297599776,
-        -0.0810469052715724,
-        -0.0800540953432194,
-        -0.0790721270331836,
-        -0.0780929491458988,
-        -0.0771111122215545,
-        -0.0761262720278318,
-        -0.0751443642557104,
-        -0.074160799121699,
-        -0.0731758184612254,
-        -0.0721954154124662,
-        -0.0712130454870906,
-        -0.0702305653286519,
-        -0.0692485991589566,
-        -0.0682686695269657,
-        -0.067283388486614,
-        -0.0663007060609842
+        -0.0444908688617077,
+        -0.0255626060615142,
+        -0.00664692568785993,
+        -3.53144354555723E-05,
+        -9.01236028641918E-06,
+        -1.61123480923884E-07
       ],
       "vAccLift"       : {
         "x" : 0.0,
@@ -8651,7 +8624,7 @@
     },
     "aRooms"           : [
       {
-        "strID" : "f1d7066f-c5a8-4284-ac42-79583e5b1d3c",
+        "strID" : "2f942c85-6ad7-4136-8a05-21458546765e",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -8940,7 +8913,7 @@
         "roomValue" : 4541.0
       },
       {
-        "strID" : "21052a23-8aef-44d9-91fb-eac6d2b03c77",
+        "strID" : "4768ddef-8f3f-41c6-8d02-0fda08f435eb",
         "bVoid" : false,
         "aTiles" : [
           51,
@@ -8969,7 +8942,7 @@
         "roomValue" : 122904.000063358
       },
       {
-        "strID" : "27dd9d60-4bce-4aa4-935a-15ccba4fb905",
+        "strID" : "f186b4af-731c-4eca-94d9-5b82b790c0d7",
         "bVoid" : false,
         "aTiles" : [
           131,
@@ -9148,7 +9121,7 @@
         "roomValue" : 202406.0
       },
       {
-        "strID" : "b5164f15-9fff-410a-a8e2-567821828a1e",
+        "strID" : "2f7de957-f031-4f5b-8dd4-c73f8b487517",
         "bVoid" : false,
         "aTiles" : [
           391,
@@ -9168,7 +9141,7 @@
         "roomValue" : 3860.99989771843
       },
       {
-        "strID" : "214ae53c-8559-484c-b151-0f6183c0a61b",
+        "strID" : "4015f4b0-d03b-4ee4-b2ec-72b302f0439e",
         "bVoid" : false,
         "aTiles" : [
           487,
@@ -9250,7 +9223,7 @@
           623
         ],
         "roomSpec" : "BridgeArea",
-        "roomValue" : 159745.059386308
+        "roomValue" : 159953.059378679
       }
     ],
     "DMGStatus"        : 0,
@@ -9272,7 +9245,7 @@
     "designation"      : "Pleasure Yacht",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "6.72m x 10.56m",
-    "fShallowMass"     : 9567.24999999995,
+    "fShallowMass"     : 9568.24999999995,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,
     "fShallowFusionRemain" : 0.0,
@@ -9289,7 +9262,7 @@
       "d1ee0b48-b43d-471c-81dc-1080c51b43c4"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "V-VDG",
+    "strXPDR"               : "O-M81",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,
