@@ -2,13 +2,13 @@
 [
   {
     "strName" : "IthRKCourier",
-    "strRegID" : "E-H8AP6",
+    "strRegID" : "O-KXQG",
     "nCurrentWaypoint" : -1,
-    "fTimeEngaged"     : 82.73124,
+    "fTimeEngaged"     : 14.9288,
     "fWearManeuver"    : 0.0,
     "fWearAccrued"     : 0.0,
     "shipCO"           : {
-      "strID" : "CO-E-H8AP6",
+      "strID" : "CO-O-KXQG",
       "strCODef" : "ShipCO",
       "bAlive"   : true,
       "aConds"   : [
@@ -17,7 +17,7 @@
         "StatRepairProgressMax=1.0x1000",
         "DEFAULT"
       ],
-      "strCondID" : "E-H8AP6",
+      "strCondID" : "O-KXQG",
       "inventoryX" : 0,
       "inventoryY" : 0,
       "fDGasTemp"  : 0.0,
@@ -54,10 +54,16 @@
         "J-WL28",
         "O-FYJF",
         "B-4YV",
-        "E-H8AP6"
+        "E-H8AP6",
+        "M-S5XX",
+        "H-K8P",
+        "O-LSEE",
+        "H-QAB7",
+        "H-YLT",
+        "O-KXQG"
       ],
-      "strFriendlyName" : "CO-E-H8AP6",
-      "strRegIDLast"    : "E-H8AP6",
+      "strFriendlyName" : "CO-O-KXQG",
+      "strRegIDLast"    : "O-KXQG",
       "fMSRedamageAmount" : 0.0
     },
     "aItems"           : [
@@ -637,25 +643,67 @@
       },
       {
         "strName" : "ItmWallRYOB01",
-        "fX"      : 11.0,
-        "fY"      : -15.0,
+        "fX"      : 10.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "31e37971-a00d-4f6d-891a-a6688fc07f7d"
+        "strID"     : "5b6d17dc-143a-4e17-94aa-cc4dc8e5b900"
       },
       {
-        "strName" : "ItmAtmoScrubber01",
-        "fX"      : 10.0,
-        "fY"      : -13.5,
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 7.0,
+        "fY"      : -13.0,
         "fRotation" : 0.0,
-        "strID"     : "cbdd574d-b25d-4c7e-a8c5-3ed6f38b3cfd",
+        "strID"     : "4ad1d87b-0592-4f7d-801c-ba084d537a2a"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 6.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "aded5577-ea61-4f91-927c-868b4d4d884d"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 8.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "bc2fbd6d-908e-4747-88cd-57c2554ff2ce"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 5.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "fe1746ec-6445-472e-a2ff-6e9b9959fb62"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 4.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "6998e9d9-85b4-43a6-a2d6-018ea273444c"
+      },
+      {
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 4.0,
+        "fY"      : -15.0,
+        "fRotation" : 0.0,
+        "strID"     : "744b6296-427a-49ba-ad32-af9802c4d3cb"
+      },
+      {
+        "strName" : "SysLootSpawnerEngineering",
+        "fX"      : 7.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "17e788fb-5afc-40d6-83da-435005fb78d7",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
             "dictGUIPropMap" : [
               "strGUIPrefab",
-              "GUIAirPump",
+              "GUILootSpawn",
               "strFriendlyName",
-              "AtmoScrubber",
+              "Loot Spawner",
               "strGUIPrefabRight",
               null,
               "strGUIPrefabLeft",
@@ -664,33 +712,38 @@
               null,
               "strGUIPrefabDown",
               null,
-              "strTitle",
-              "Unscrew for CO2 Sensor Input Signal",
-              "strValidCOTrigger01",
-              "TIsAlarm2",
-              "strSubPoint",
-              "ignore",
-              "strCondMonitor01",
-              "IsReadyHeat",
-              "strInput01",
-              "2765c4f1-c2a5-4f6b-ab3b-490233054694",
-              "nKnobBus",
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmLootSpawnEngineering",
+              "strRange",
+              "0",
+              "strCount",
               "1",
-              "bTurbo",
-              "false",
-              "bReverse",
-              "false",
-              "bSlowMode",
-              "false"
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "strName" : "SysLootSpawnerRandomPartsScrap",
+        "fX"      : 9.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "f33af2eb-7c44-4ded-8f7f-bced65e24cba",
+        "aGPMSettings" : [
           {
-            "strName" : "Panel OneSheet",
+            "strName" : "Panel A",
             "dictGUIPropMap" : [
               "strGUIPrefab",
-              "GUIOneSheet",
+              "GUILootSpawn",
               "strFriendlyName",
-              "CO2 AtmoScrubber User Guide",
+              "Loot Spawner",
               "strGUIPrefabRight",
               null,
               "strGUIPrefabLeft",
@@ -699,10 +752,45 @@
               null,
               "strGUIPrefabDown",
               null,
-              "strPNG",
-              "manuals/CO2 AtmoScrubber User Guide/000.png"
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmLootSpawnRandomScrap",
+              "strRange",
+              "0",
+              "strCount",
+              "1",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 7.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "5327bba9-1e46-4405-9905-90e88056f6d5"
+      },
+      {
+        "strName" : "ItmStorageBin2x2C04",
+        "fX"      : 9.5,
+        "fY"      : -17.5,
+        "fRotation" : 0.0,
+        "strID"     : "780cb92b-4c4f-4758-ad3b-ba5efe4c0bdb"
+      },
+      {
+        "strName" : "ItmLitWall1x0",
+        "fX"      : 10.0,
+        "fY"      : -19.0,
+        "fRotation" : 0.0,
+        "strID"     : "6e2fde96-99f6-46d7-8a4b-9b9a5bacbace",
+        "aGPMSettings" : [
           {
             "strName" : "Electrical",
             "dictGUIPropMap" : [
@@ -727,81 +815,34 @@
         ]
       },
       {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 10.0,
-        "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "5b6d17dc-143a-4e17-94aa-cc4dc8e5b900"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 10.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "ed8b0dcd-29b8-4867-985a-984e0fb95408"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 10.0,
-        "fY"      : -17.0,
-        "fRotation" : 0.0,
-        "strID"     : "66d21ec2-aa3a-4729-bf0a-c85075834428"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 9.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "91628ec8-1d34-417f-b765-5aca5724cc52"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 8.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "396d9a3b-6547-41a8-a668-c90aa85652be"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 7.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "43c5f8bc-60bc-4246-bb92-8e8198aca0c6"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 6.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "496f4485-7d5a-4d33-a7c8-675261cd8152"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 5.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "d69a8ece-b60b-4d49-893a-98afbfce87fa"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
+        "strName" : "ItmLitWall1x0",
         "fX"      : 4.0,
-        "fY"      : -17.0,
+        "fY"      : -19.0,
         "fRotation" : 0.0,
-        "strID"     : "69424a0c-0117-4214-b064-ff7ca0a2a13a"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 4.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "74dc931a-5cde-4658-8a79-87117130dbb0"
-      },
-      {
-        "strName" : "ItmWallRYOB01",
-        "fX"      : 4.0,
-        "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "8ebe4dab-f993-491d-98d1-108877ac63d1"
+        "strID"     : "50a34efb-e929-450c-8125-799f4ed4d614",
+        "aGPMSettings" : [
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
       },
       {
         "strName" : "ItmWallRYOB01",
@@ -1144,44 +1185,11 @@
         ]
       },
       {
-        "strName" : "SysLootSpawnerEngineering",
-        "fX"      : 5.0,
-        "fY"      : -17.0,
+        "strName" : "ItmStorageBin2x104",
+        "fX"      : 6.5,
+        "fY"      : -17.5,
         "fRotation" : 0.0,
-        "strID"     : "e6de1d95-a7df-46a1-80d4-67aa03982f9e",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUILootSpawn",
-              "strFriendlyName",
-              "Loot Spawner",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strType",
-              "Loot",
-              "strLoot",
-              "ItmLootSpawnEngineering",
-              "strRange",
-              "0",
-              "strCount",
-              "1",
-              "strNew",
-              "True",
-              "strDamaged",
-              "True",
-              "strDerelict",
-              "True"
-            ]
-          }
-        ]
+        "strID"     : "11e8bf3d-8fc5-45e4-960c-91541670f0ee"
       },
       {
         "strName" : "ItmFloorMSSLFWhite01",
@@ -1212,32 +1220,32 @@
         "strID"     : "142b5e70-0c98-4c0e-a97b-dcd541b5d916"
       },
       {
-        "strName" : "ItmFloorMSSLFWhite01",
-        "fX"      : 6.0,
-        "fY"      : -17.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 10.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "4363fe16-098c-4b00-8bb2-0e8ec53f2a3c"
+        "strID"     : "34292480-efa4-488c-906c-0071b228f274"
       },
       {
-        "strName" : "ItmFloorMSSLFWhite01",
-        "fX"      : 7.0,
-        "fY"      : -17.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 4.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "69ab3c5b-3556-4fef-8bfd-5eabaf6dbc03"
+        "strID"     : "088035de-635a-4147-9ee2-1860d9cb646f"
       },
       {
-        "strName" : "ItmFloorMSSLFWhite01",
-        "fX"      : 8.0,
-        "fY"      : -17.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 4.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "5fd50fea-ee73-422d-987d-6efef23fe7f7"
+        "strID"     : "afd6cb39-ee0b-4229-8ab2-3aba3d649ff1"
       },
       {
-        "strName" : "ItmFloorMSSLFWhite01",
-        "fX"      : 9.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 4.0,
         "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "2bd5a7f6-1c84-42fe-8457-4e61b8f4d74b"
+        "strID"     : "19417286-4752-4e65-b61e-09704036cf5c"
       },
       {
         "strName" : "ItmFloorMSSLFWhite01",
@@ -2318,11 +2326,11 @@
         "strID"     : "9a4befb3-1607-4e22-812a-1ae294b480d9"
       },
       {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 11.0,
-        "fY"      : -14.0,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 10.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "fb1ffd85-47d4-4b71-aeb7-d6e0d74b38cc"
+        "strID"     : "66d21ec2-aa3a-4729-bf0a-c85075834428"
       },
       {
         "strName" : "ItmFloorRYOF02",
@@ -2724,11 +2732,11 @@
         "strID"     : "159a2a2b-a0a5-49ca-aa1b-0480ea8fd5dc"
       },
       {
-        "strName" : "ItmFloorRYOF05",
+        "strName" : "ItmConduit01",
         "fX"      : 5.0,
-        "fY"      : -14.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "a8f1ebb7-102a-4538-8c8e-36acb9f771ed"
+        "strID"     : "e3e75916-9369-44f4-a3ea-26f843bd57ec"
       },
       {
         "strName" : "ItmFloorRYOF01",
@@ -2738,11 +2746,11 @@
         "strID"     : "befa78af-1c46-4e4c-be76-c11e50b9fcde"
       },
       {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 5.0,
-        "fY"      : -13.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 6.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "befdde0c-08fa-4b2d-a5bd-3a8b8d95eb58"
+        "strID"     : "2bd47b85-67ce-4563-a5aa-2d69825b60a0"
       },
       {
         "strName" : "ItmFloorRYOF04",
@@ -2766,11 +2774,11 @@
         "strID"     : "73eaaf71-656b-4635-9ecf-cbddcf2ea075"
       },
       {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 4.0,
-        "fY"      : -13.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 7.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "24379877-9846-4a37-bea2-fbc6864c36bf"
+        "strID"     : "c5f39af0-bbb8-4baf-ab5b-f8d255a89a68"
       },
       {
         "strName" : "ItmFloorRYOF04",
@@ -2871,39 +2879,81 @@
         "strID"     : "1fed31aa-c58c-4f7d-8ce6-0645a93941ff"
       },
       {
-        "strName" : "ItmFloorRYOF01",
+        "strName" : "ItmConduit01",
+        "fX"      : 8.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "f1d88801-522e-4855-ade2-5dc1232360c9"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 9.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "65e3ac6e-e9cb-4f6d-981a-ba3bdb721cfb"
+      },
+      {
+        "strName" : "ItmConduit01",
         "fX"      : 10.0,
-        "fY"      : -13.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "8850b5e2-efd2-43d6-8d04-fe6138e007b3"
+        "strID"     : "c3763439-647d-4aca-8740-4413cc24df28"
       },
       {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 9.0,
-        "fY"      : -13.0,
-        "fRotation" : 0.0,
-        "strID"     : "abe6a6dc-f4f5-4a2a-8047-f81c30e6b841"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 9.0,
-        "fY"      : -14.0,
-        "fRotation" : 0.0,
-        "strID"     : "cb8fca25-90be-4f1e-872f-ddd4d3f73ad8"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
+        "strName" : "ItmAlarmCO2OnG",
         "fX"      : 9.0,
         "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "b7db83f6-5c97-4a3d-93b8-2d631058e640"
+        "fRotation" : 270.0,
+        "strID"     : "0b1da771-b591-4e18-8a59-b72c736fea7c",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Alarm",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Alarm Override"
+            ]
+          },
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
       },
       {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 5.0,
-        "fY"      : -15.0,
+        "strName" : "ItmConduit01",
+        "fX"      : 10.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "93ce8a8b-ee11-4413-903a-610a6e03e9c4"
+        "strID"     : "70eb9380-5831-4995-a897-a3de5fc8f987"
       },
       {
         "strName" : "ItmFloorRYOF01",
@@ -3116,67 +3166,67 @@
         "strID"     : "7d3b3f3d-883b-4ec2-8213-51ed60139d02"
       },
       {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 6.0,
-        "fY"      : -15.0,
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 5.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "c7370224-8871-4abb-af6e-a75ebc7d7fbf"
+        "strID"     : "6e7ba44a-ee21-4b24-8e3c-76749fa13129"
       },
       {
-        "strName" : "ItmFloorRYOF05",
+        "strName" : "ItmStorageBin2x2C04",
+        "fX"      : 4.5,
+        "fY"      : -17.5,
+        "fRotation" : 90.0,
+        "strID"     : "15650a61-76d2-46fa-90f8-42f52607d788"
+      },
+      {
+        "strName" : "ItmConduit01",
         "fX"      : 7.0,
         "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "03f42f69-3a66-4cb8-bac7-2d73454ad0cf"
+        "strID"     : "204ad624-0a54-4b6e-9f3c-a4d50465629d"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 7.0,
+        "fY"      : -16.0,
+        "fRotation" : 0.0,
+        "strID"     : "1078ce9d-72e0-4f09-a381-1319e8ca9380"
       },
       {
         "strName" : "ItmFloorRYOF01",
-        "fX"      : 8.0,
+        "fX"      : 10.0,
         "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "0135f99f-dcfb-41db-b56d-8b4b19241f11"
+        "strID"     : "ea7a869e-2b59-4e3f-a0c3-26ad0f8713df"
       },
       {
         "strName" : "ItmFloorRYOF01",
-        "fX"      : 8.0,
-        "fY"      : -14.0,
+        "fX"      : 10.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "f9c83137-f24f-4c00-a760-17f369d90962"
+        "strID"     : "7f4140bb-0da3-44f9-abcb-630c1a02183c"
       },
       {
         "strName" : "ItmFloorRYOF01",
-        "fX"      : 8.0,
-        "fY"      : -13.0,
+        "fX"      : 10.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "414ddc71-d1d3-4804-8534-6ffce54ae03f"
+        "strID"     : "10d997e3-0322-49a4-9b57-e03b8f845fe0"
       },
       {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 7.0,
-        "fY"      : -13.0,
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 10.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "72ae932e-8753-4837-86dd-54023d096ce1"
+        "strID"     : "6309dfd4-bd16-4579-a7e3-87278655a7b0"
       },
       {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 6.0,
-        "fY"      : -13.0,
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 9.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "d28c8830-8db9-4c69-ab07-ea0f52613967"
-      },
-      {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 6.0,
-        "fY"      : -14.0,
-        "fRotation" : 0.0,
-        "strID"     : "4806197d-d59d-4fb8-8dd3-567d6d0caec7"
-      },
-      {
-        "strName" : "ItmFloorRYOF05",
-        "fX"      : 7.0,
-        "fY"      : -14.0,
-        "fRotation" : 0.0,
-        "strID"     : "9ed2e948-35d6-4379-a51f-43de847216a1"
+        "strID"     : "49108aae-20d9-4cdf-b146-97b34f421211"
       },
       {
         "strName" : "ItmFloorRYOF05",
@@ -4261,15 +4311,50 @@
       },
       {
         "strName" : "ItmFloorRYOF01",
-        "fX"      : 4.0,
-        "fY"      : -15.0,
+        "fX"      : 8.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "ac34e5bb-08b0-40d8-a1d5-63521c1962dc"
+        "strID"     : "a774d013-1d5c-4679-a969-81eefa92d4d7"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 7.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "7a646fb8-e688-4de2-bab2-6c14219d226e"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 6.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "33afa7af-df74-4268-9852-0a1708e5a64f"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 5.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "89e4241f-b3b8-46bf-97b2-9f8add0457a1"
       },
       {
         "strName" : "ItmFloorRYOF01",
         "fX"      : 4.0,
-        "fY"      : -14.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "8c59233c-26fe-4643-86c1-9aac9487b8cc"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 4.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "42b42062-15b1-4f69-809f-b8230a91887e"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 4.0,
+        "fY"      : -15.0,
         "fRotation" : 0.0,
         "strID"     : "0b74cd23-0963-47e6-97a5-ba68626ec836"
       },
@@ -4278,84 +4363,49 @@
         "fX"      : 4.0,
         "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "42b42062-15b1-4f69-809f-b8230a91887e"
+        "strID"     : "ac34e5bb-08b0-40d8-a1d5-63521c1962dc"
       },
       {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 4.0,
-        "fY"      : -17.0,
-        "fRotation" : 0.0,
-        "strID"     : "8c59233c-26fe-4643-86c1-9aac9487b8cc"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 5.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "89e4241f-b3b8-46bf-97b2-9f8add0457a1"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 6.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "33afa7af-df74-4268-9852-0a1708e5a64f"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
+        "strName" : "ItmFloorRYOF05",
         "fX"      : 7.0,
-        "fY"      : -16.0,
+        "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "7a646fb8-e688-4de2-bab2-6c14219d226e"
+        "strID"     : "9ed2e948-35d6-4379-a51f-43de847216a1"
+      },
+      {
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 6.0,
+        "fY"      : -15.0,
+        "fRotation" : 0.0,
+        "strID"     : "4806197d-d59d-4fb8-8dd3-567d6d0caec7"
+      },
+      {
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 6.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "d28c8830-8db9-4c69-ab07-ea0f52613967"
+      },
+      {
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 7.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "72ae932e-8753-4837-86dd-54023d096ce1"
       },
       {
         "strName" : "ItmFloorRYOF01",
         "fX"      : 8.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "a774d013-1d5c-4679-a969-81eefa92d4d7"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 9.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "49108aae-20d9-4cdf-b146-97b34f421211"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 10.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "6309dfd4-bd16-4579-a7e3-87278655a7b0"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 10.0,
-        "fY"      : -17.0,
-        "fRotation" : 0.0,
-        "strID"     : "10d997e3-0322-49a4-9b57-e03b8f845fe0"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 10.0,
-        "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "7f4140bb-0da3-44f9-abcb-630c1a02183c"
-      },
-      {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 10.0,
         "fY"      : -14.0,
         "fRotation" : 0.0,
-        "strID"     : "ea7a869e-2b59-4e3f-a0c3-26ad0f8713df"
+        "strID"     : "414ddc71-d1d3-4804-8534-6ffce54ae03f"
       },
       {
-        "strName" : "ItmFloorRYOF01",
-        "fX"      : 11.0,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 10.0,
         "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "259147d3-5232-4c3c-9ddc-14ca3f370bd3"
+        "strID"     : "050cd65b-f82e-4456-926b-74b6a823ee83"
       },
       {
         "strName" : "ItmFloorRYOF01",
@@ -4415,10 +4465,10 @@
       },
       {
         "strName" : "ItmCanisterLHe01",
-        "fX"      : -0.9999995,
+        "fX"      : -1.0,
         "fY"      : -8.0,
-        "fRotation" : 90.0,
-        "strID"     : "75061842-39bd-4072-8ad7-cb8d5901a27c"
+        "fRotation" : 180.0,
+        "strID"     : "d9422680-5188-41ca-a8da-73d4eebf58f6"
       },
       {
         "strName" : "ItmCooler01On",
@@ -4896,7 +4946,7 @@
         "fX"      : 15.0,
         "fY"      : -8.0,
         "fRotation" : 90.0,
-        "strID"     : "8a4e36b6-07b1-499a-b45b-3caeb6a8616f"
+        "strID"     : "c3880beb-0116-45a4-8554-e771894d1927"
       },
       {
         "strName" : "ItmRCSCluster01",
@@ -5463,7 +5513,7 @@
           {
             "CondName" : "StatDamage",
             "Chance"   : 1.0,
-            "Amount"   : 0.00400027679585487,
+            "Amount"   : 0.0100002767958549,
             "NegativeValue" : false
           }
         ]
@@ -5520,11 +5570,11 @@
         "strID"     : "e1e3312f-5105-4553-b70b-ef1acc74a40e"
       },
       {
-        "strName" : "ItmSensorIR02",
+        "strName" : "ItmSensorEM02",
         "fX"      : -4.0,
         "fY"      : -10.0,
         "fRotation" : 90.0,
-        "strID"     : "ba464b14-9afb-4593-ba85-305f34f5f00e",
+        "strID"     : "0a005b98-b097-4615-b281-989828350264",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -5609,18 +5659,18 @@
         ]
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 7.0,
-        "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "1078ce9d-72e0-4f09-a381-1319e8ca9380"
+        "strName" : "ItmFloorRYOF02",
+        "fX"      : 8.0,
+        "fY"      : -16.0,
+        "fRotation" : 90.0,
+        "strID"     : "bac10c3b-e05b-4f23-af61-286f16396efb"
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 7.0,
-        "fY"      : -14.0,
+        "strName" : "ItmFloorRYOF02",
+        "fX"      : 8.0,
+        "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "204ad624-0a54-4b6e-9f3c-a4d50465629d"
+        "strID"     : "19f8a72d-acc8-487b-8ece-1a3484d405e8"
       },
       {
         "strName" : "ItmStorageBin2x2C04",
@@ -5761,11 +5811,11 @@
         ]
       },
       {
-        "strName" : "ItmStorageBin2x2C04",
-        "fX"      : 4.5,
-        "fY"      : -16.5,
-        "fRotation" : 90.0,
-        "strID"     : "15650a61-76d2-46fa-90f8-42f52607d788"
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 7.0,
+        "fY"      : -16.0,
+        "fRotation" : 0.0,
+        "strID"     : "03f42f69-3a66-4cb8-bac7-2d73454ad0cf"
       },
       {
         "strName" : "ItmBed02",
@@ -5815,11 +5865,11 @@
         ]
       },
       {
-        "strName" : "ItmFloorMSSLFWhite01",
-        "fX"      : 5.0,
-        "fY"      : -17.0,
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 6.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "6e7ba44a-ee21-4b24-8e3c-76749fa13129"
+        "strID"     : "c7370224-8871-4abb-af6e-a75ebc7d7fbf"
       },
       {
         "strName" : "ItmStorageBin1x101",
@@ -6176,24 +6226,24 @@
         "fX"      : 9.0,
         "fY"      : 7.0,
         "fRotation" : 0.0,
-        "strID"     : "5c604d11-2bba-4d7a-998d-dce9d8e9e7ce",
+        "strID"     : "1773c55e-33e0-49e4-98ca-a1a9757ad895",
         "strSlotParentID" : "5a1c53e2-e3ab-4267-8939-9ba71d9f5995"
       },
       {
-        "strName" : "DataBINPersonalAddressesJadeRabbit",
+        "strName" : "DataBINCryptoSmall",
         "fX"      : 9.0,
         "fY"      : 7.0,
         "fRotation" : 0.0,
-        "strID"     : "72eb6a06-180d-4644-91f7-596a0f9df245",
-        "strParentID" : "5c604d11-2bba-4d7a-998d-dce9d8e9e7ce"
+        "strID"     : "0a2aa115-f1b3-4952-a3ef-0b2bf9856a65",
+        "strParentID" : "1773c55e-33e0-49e4-98ca-a1a9757ad895"
       },
       {
-        "strName" : "DataVIDVlog02",
+        "strName" : "DataSNDConfession",
         "fX"      : 9.0,
         "fY"      : 7.0,
         "fRotation" : 0.0,
-        "strID"     : "2294f26f-15ff-44cb-9945-b706e07ae8f7",
-        "strParentID" : "5c604d11-2bba-4d7a-998d-dce9d8e9e7ce"
+        "strID"     : "bb1129ed-242f-4782-b3c4-c5584150c2d4",
+        "strParentID" : "1773c55e-33e0-49e4-98ca-a1a9757ad895"
       },
       {
         "strName" : "ItmStationNav",
@@ -6645,123 +6695,81 @@
         "strID"     : "1a815bbf-eeeb-41b9-b244-b92700b0dc78"
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 11.0,
-        "fY"      : -15.0,
-        "fRotation" : 0.0,
-        "strID"     : "b9b7e088-5bc3-465e-a3b3-173ff118fc10"
-      },
-      {
-        "strName" : "ItmConduit01",
+        "strName" : "ItmWallRYOB01",
         "fX"      : 10.0,
-        "fY"      : -15.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "70eb9380-5831-4995-a897-a3de5fc8f987"
+        "strID"     : "ed8b0dcd-29b8-4867-985a-984e0fb95408"
       },
       {
-        "strName" : "ItmAlarmCO2OnG",
-        "fX"      : 8.0,
-        "fY"      : -15.0,
-        "fRotation" : 180.0,
-        "strID"     : "2765c4f1-c2a5-4f6b-ab3b-490233054694",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Alarm",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Alarm Override"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "ItmConduit01",
-        "fX"      : 10.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "c3763439-647d-4aca-8740-4413cc24df28"
-      },
-      {
-        "strName" : "ItmConduit01",
-        "fX"      : 9.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "65e3ac6e-e9cb-4f6d-981a-ba3bdb721cfb"
-      },
-      {
-        "strName" : "ItmConduit01",
-        "fX"      : 8.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "f1d88801-522e-4855-ade2-5dc1232360c9"
-      },
-      {
-        "strName" : "ItmConduit01",
-        "fX"      : 7.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "c5f39af0-bbb8-4baf-ab5b-f8d255a89a68"
-      },
-      {
-        "strName" : "ItmConduit01",
-        "fX"      : 6.0,
-        "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "2bd47b85-67ce-4563-a5aa-2d69825b60a0"
-      },
-      {
-        "strName" : "ItmConduit01",
+        "strName" : "ItmFloorRYOF05",
         "fX"      : 5.0,
         "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "e3e75916-9369-44f4-a3ea-26f843bd57ec"
+        "strID"     : "93ce8a8b-ee11-4413-903a-610a6e03e9c4"
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 4.0,
+        "strName" : "ItmFloorRYOF02",
+        "fX"      : 9.0,
+        "fY"      : -15.0,
+        "fRotation" : 270.0,
+        "strID"     : "d665281b-4088-4d53-8246-3bf535521bf8"
+      },
+      {
+        "strName" : "ItmFloorRYOF02",
+        "fX"      : 9.0,
         "fY"      : -16.0,
-        "fRotation" : 0.0,
-        "strID"     : "19417286-4752-4e65-b61e-09704036cf5c"
+        "fRotation" : 180.0,
+        "strID"     : "c7cf82c6-2961-4141-a90f-2f6c85ddd9f9"
       },
       {
-        "strName" : "ItmConduit01",
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 9.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "abe6a6dc-f4f5-4a2a-8047-f81c30e6b841"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 10.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "8850b5e2-efd2-43d6-8d04-fe6138e007b3"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
         "fX"      : 4.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "24379877-9846-4a37-bea2-fbc6864c36bf"
+      },
+      {
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 5.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "befdde0c-08fa-4b2d-a5bd-3a8b8d95eb58"
+      },
+      {
+        "strName" : "ItmFloorRYOF05",
+        "fX"      : 5.0,
         "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "afd6cb39-ee0b-4229-8ab2-3aba3d649ff1"
+        "strID"     : "a8f1ebb7-102a-4538-8c8e-36acb9f771ed"
+      },
+      {
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 9.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "2bd5a7f6-1c84-42fe-8457-4e61b8f4d74b"
+      },
+      {
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 8.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "5fd50fea-ee73-422d-987d-6efef23fe7f7"
       },
       {
         "strName" : "ItmLitWall1x0VibrantRed",
@@ -6794,18 +6802,18 @@
         ]
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 4.0,
-        "fY"      : -17.0,
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 7.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "088035de-635a-4147-9ee2-1860d9cb646f"
+        "strID"     : "69ab3c5b-3556-4fef-8bfd-5eabaf6dbc03"
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 10.0,
-        "fY"      : -17.0,
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 6.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "34292480-efa4-488c-906c-0071b228f274"
+        "strID"     : "4363fe16-098c-4b00-8bb2-0e8ec53f2a3c"
       },
       {
         "strName" : "ItmConduit01",
@@ -7032,11 +7040,11 @@
         "strID"     : "aad30b77-e4b7-4785-8558-39c3ab36335e"
       },
       {
-        "strName" : "ItmCanisterLH02",
-        "fX"      : 6.0,
-        "fY"      : -14.0,
-        "fRotation" : 90.0,
-        "strID"     : "8a3ec371-c8c8-461f-8e66-2a0828c69638"
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 9.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "c2e2419f-8c42-44fd-8772-72c7033fc8f6"
       },
       {
         "strName" : "ItmAlarmTempOnW",
@@ -7088,11 +7096,11 @@
         ]
       },
       {
-        "strName" : "ItmRTACO2",
+        "strName" : "ItmWallRYOB01",
         "fX"      : 11.0,
-        "fY"      : -13.0,
+        "fY"      : -15.0,
         "fRotation" : 0.0,
-        "strID"     : "eab564de-71f6-4649-af64-3526afe642be"
+        "strID"     : "521751ad-bf7e-4367-93ed-fa02efe5c885"
       },
       {
         "strName" : "ItmRTAN2",
@@ -7249,11 +7257,44 @@
         "strID"     : "bbfec6f1-d43b-4d9f-b765-24cbb66c30b3"
       },
       {
-        "strName" : "ItmStorageBin2x104",
-        "fX"      : 6.5,
-        "fY"      : -16.5,
+        "strName" : "SysLootSpawnerEngineering",
+        "fX"      : 5.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "11e8bf3d-8fc5-45e4-960c-91541670f0ee"
+        "strID"     : "e6de1d95-a7df-46a1-80d4-67aa03982f9e",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmLootSpawnEngineering",
+              "strRange",
+              "0",
+              "strCount",
+              "1",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
       },
       {
         "strName" : "SysLootSpawnerProvisions",
@@ -7296,34 +7337,11 @@
         ]
       },
       {
-        "strName" : "ItmLitWall1x0VibrantRed",
-        "fX"      : 11.0,
-        "fY"      : -14.0,
-        "fRotation" : 180.0,
-        "strID"     : "97400a96-0194-4c65-a66c-954d364abf36",
-        "aGPMSettings" : [
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 9.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "91628ec8-1d34-417f-b765-5aca5724cc52"
       },
       {
         "strName" : "ItmLitWall1x0",
@@ -7486,64 +7504,18 @@
         ]
       },
       {
-        "strName" : "ItmLitWall1x0",
+        "strName" : "ItmWallRYOB01",
         "fX"      : 4.0,
-        "fY"      : -18.0,
+        "fY"      : -16.0,
         "fRotation" : 0.0,
-        "strID"     : "50a34efb-e929-450c-8125-799f4ed4d614",
-        "aGPMSettings" : [
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
+        "strID"     : "8ebe4dab-f993-491d-98d1-108877ac63d1"
       },
       {
-        "strName" : "ItmLitWall1x0",
-        "fX"      : 10.0,
-        "fY"      : -18.0,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 4.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "6e2fde96-99f6-46d7-8a4b-9b9a5bacbace",
-        "aGPMSettings" : [
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
+        "strID"     : "74dc931a-5cde-4658-8a79-87117130dbb0"
       },
       {
         "strName" : "ItmLitWall1x0",
@@ -7700,7 +7672,7 @@
             "strName" : "Data",
             "dictGUIPropMap" : [
               "strRegID",
-              "E-H8AP6"
+              "O-KXQG"
             ]
           },
           {
@@ -8502,11 +8474,11 @@
         ]
       },
       {
-        "strName" : "ItmStorageBin2x2C04",
-        "fX"      : 9.5,
-        "fY"      : -16.5,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 4.0,
+        "fY"      : -18.0,
         "fRotation" : 0.0,
-        "strID"     : "780cb92b-4c4f-4758-ad3b-ba5efe4c0bdb"
+        "strID"     : "69424a0c-0117-4214-b064-ff7ca0a2a13a"
       },
       {
         "strName" : "ItmStorageBin2x2C04",
@@ -8537,11 +8509,11 @@
         "strID"     : "b00b29ee-f214-4010-b5fe-131f2b3a7922"
       },
       {
-        "strName" : "ItmConduit01",
-        "fX"      : 7.0,
-        "fY"      : -13.0,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 5.0,
+        "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "5327bba9-1e46-4405-9905-90e88056f6d5"
+        "strID"     : "d69a8ece-b60b-4d49-893a-98afbfce87fa"
       },
       {
         "strName" : "ItmFloorRYOF01",
@@ -8586,55 +8558,6 @@
               "True",
               "strDerelict",
               "True"
-            ]
-          }
-        ]
-      },
-      {
-        "strName" : "ItmSensorEM02",
-        "fX"      : 2.384186E-07,
-        "fY"      : -2.384186E-07,
-        "fRotation" : 90.0,
-        "strID"     : "4e147189-b8e2-45dd-9961-60811261a5db",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Sensor",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Sensor"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
             ]
           }
         ]
@@ -8694,44 +8617,11 @@
         ]
       },
       {
-        "strName" : "SysLootSpawnerRandomPartsScrap",
-        "fX"      : 9.0,
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 6.0,
         "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "f33af2eb-7c44-4ded-8f7f-bced65e24cba",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUILootSpawn",
-              "strFriendlyName",
-              "Loot Spawner",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strType",
-              "Loot",
-              "strLoot",
-              "ItmLootSpawnRandomScrap",
-              "strRange",
-              "0",
-              "strCount",
-              "1",
-              "strNew",
-              "True",
-              "strDamaged",
-              "True",
-              "strDerelict",
-              "True"
-            ]
-          }
-        ]
+        "strID"     : "496f4485-7d5a-4d33-a7c8-675261cd8152"
       },
       {
         "strName" : "SysLootSpawnerRandomPartsScrap",
@@ -8981,44 +8871,11 @@
         ]
       },
       {
-        "strName" : "SysLootSpawnerEngineering",
+        "strName" : "ItmWallRYOB01",
         "fX"      : 7.0,
         "fY"      : -17.0,
         "fRotation" : 0.0,
-        "strID"     : "17e788fb-5afc-40d6-83da-435005fb78d7",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUILootSpawn",
-              "strFriendlyName",
-              "Loot Spawner",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strType",
-              "Loot",
-              "strLoot",
-              "ItmLootSpawnEngineering",
-              "strRange",
-              "0",
-              "strCount",
-              "1",
-              "strNew",
-              "True",
-              "strDamaged",
-              "True",
-              "strDerelict",
-              "True"
-            ]
-          }
-        ]
+        "strID"     : "43c5f8bc-60bc-4246-bb92-8e8198aca0c6"
       },
       {
         "strName" : "SysLootSpawnerBulkCargo",
@@ -9161,7 +9018,7 @@
         "fX"      : 1.0,
         "fY"      : 2.0,
         "fRotation" : 0.0,
-        "strID"     : "51f860fa-bbe0-4c72-b476-6348d0fe64a6",
+        "strID"     : "9027b523-8127-4ba3-b7da-2dddaaab0dfc",
         "aGPMSettings" : [
           {
             "strName" : "Panel A",
@@ -9277,53 +9134,11 @@
         ]
       },
       {
-        "strName" : "ItmAlarmSmokeOnG",
-        "fX"      : 4.0,
-        "fY"      : -14.0,
-        "fRotation" : 180.0,
-        "strID"     : "08614ddf-04fb-4983-aa39-c44d50c391f5",
-        "aGPMSettings" : [
-          {
-            "strName" : "Panel A",
-            "dictGUIPropMap" : [
-              "strGUIPrefab",
-              "GUIOnOff",
-              "strFriendlyName",
-              "Alarm",
-              "strGUIPrefabRight",
-              null,
-              "strGUIPrefabLeft",
-              null,
-              "strGUIPrefabUp",
-              null,
-              "strGUIPrefabDown",
-              null,
-              "strTitle",
-              "Alarm Override"
-            ]
-          },
-          {
-            "strName" : "Electrical",
-            "dictGUIPropMap" : [
-              "status",
-              "true",
-              "inputConnections",
-              "",
-              "outputConnections",
-              "",
-              "signalQueue",
-              "",
-              "sendQueue",
-              "",
-              "override",
-              "true",
-              "delay",
-              "0.0",
-              "gate",
-              "0"
-            ]
-          }
-        ]
+        "strName" : "ItmWallRYOB01",
+        "fX"      : 8.0,
+        "fY"      : -17.0,
+        "fRotation" : 0.0,
+        "strID"     : "396d9a3b-6547-41a8-a668-c90aa85652be"
       },
       {
         "strName" : "ItmAlarmSmokeOnG",
@@ -9415,39 +9230,346 @@
         ]
       },
       {
+        "strName" : "ItmConduit01",
+        "fX"      : 4.0,
+        "fY"      : -15.0,
+        "fRotation" : 0.0,
+        "strID"     : "72009e33-6aa4-4030-aaf2-e7862f8f067c"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 11.0,
+        "fY"      : -15.0,
+        "fRotation" : 0.0,
+        "strID"     : "c92e136e-e317-462d-8678-5a36b906f182"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 10.0,
+        "fY"      : -15.0,
+        "fRotation" : 0.0,
+        "strID"     : "85e81985-f5b7-481e-abc0-94d63e98fd51"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 11.0,
+        "fY"      : -14.0,
+        "fRotation" : 0.0,
+        "strID"     : "a5e04ca0-16c8-4251-a52a-f386abe8b021"
+      },
+      {
+        "strName" : "ItmFloorRYOF01",
+        "fX"      : 10.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "b5396163-dd56-4c7b-9554-104e3392bcdf"
+      },
+      {
+        "strName" : "ItmConduit01",
+        "fX"      : 7.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "03dfaf99-dc42-4f53-b140-398b48950907"
+      },
+      {
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 3.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "36353055-2df8-41be-83c6-a58c819a8a2e"
+      },
+      {
+        "strName" : "ItmFloorMSSLFWhite01",
+        "fX"      : 11.0,
+        "fY"      : -18.0,
+        "fRotation" : 0.0,
+        "strID"     : "6b646362-d88a-45c4-a700-1078ca3ea552"
+      },
+      {
+        "strName" : "ItmCanisterLH02",
+        "fX"      : 6.0,
+        "fY"      : -15.0,
+        "fRotation" : 270.0,
+        "strID"     : "fd779975-3fb7-481a-8d53-a9b527cc41d8"
+      },
+      {
+        "strName" : "ItmAtmoScrubber01",
+        "fX"      : 10.0,
+        "fY"      : -13.5,
+        "fRotation" : 0.0,
+        "strID"     : "0586247f-d889-4772-bbdd-100942e612aa",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIAirPump",
+              "strFriendlyName",
+              "AtmoScrubber",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Unscrew for CO2 Sensor Input Signal",
+              "strValidCOTrigger01",
+              "TIsAlarm2",
+              "strSubPoint",
+              "ignore",
+              "strCondMonitor01",
+              "IsReadyHeat",
+              "strInput01",
+              "0b1da771-b591-4e18-8a59-b72c736fea7c",
+              "nKnobBus",
+              "1",
+              "bTurbo",
+              "false",
+              "bReverse",
+              "false",
+              "bSlowMode",
+              "false"
+            ]
+          },
+          {
+            "strName" : "Panel OneSheet",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOneSheet",
+              "strFriendlyName",
+              "CO2 AtmoScrubber User Guide",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strPNG",
+              "manuals/CO2 AtmoScrubber User Guide/000.png"
+            ]
+          },
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "ItmRTACO2",
+        "fX"      : 11.0,
+        "fY"      : -13.0,
+        "fRotation" : 0.0,
+        "strID"     : "87364d1b-54ae-446e-9041-e72a7f9a1f12"
+      },
+      {
+        "strName" : "SysLootSpawnerBulkCargo",
+        "fX"      : 8.0,
+        "fY"      : -16.0,
+        "fRotation" : 0.0,
+        "strID"     : "5656d32e-d352-4f80-b97b-2e425563d1ee",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Loot",
+              "strLoot",
+              "ItmLootSpawnBulkCargo",
+              "strRange",
+              "0",
+              "strCount",
+              "1",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "ItmCrate01",
+        "fX"      : 8.5,
+        "fY"      : -15.5,
+        "fRotation" : 180.0,
+        "strID"     : "88001369-4685-4fd7-b732-6eef58c2de60",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILocks",
+              "strFriendlyName",
+              "Crate Lock",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strBrand",
+              "RAKOW",
+              "strBrandSub",
+              "Flight Cases",
+              "strMSLock",
+              "ItmCrate01Lock",
+              "strMSUnlock",
+              "ItmCrate01"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "ItmAlarmSmokeOnG",
+        "fX"      : 4.0,
+        "fY"      : -14.0,
+        "fRotation" : 180.0,
+        "strID"     : "d534adc0-0aa6-417f-808c-fe425c90737b",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUIOnOff",
+              "strFriendlyName",
+              "Alarm",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strTitle",
+              "Alarm Override"
+            ]
+          },
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "strName" : "ItmLitWall1x0VibrantRed",
+        "fX"      : 11.0,
+        "fY"      : -14.0,
+        "fRotation" : 180.0,
+        "strID"     : "f374a262-4a1d-48e7-b5ca-45a0e1b7bb2b",
+        "aGPMSettings" : [
+          {
+            "strName" : "Electrical",
+            "dictGUIPropMap" : [
+              "status",
+              "true",
+              "inputConnections",
+              "",
+              "outputConnections",
+              "",
+              "signalQueue",
+              "",
+              "sendQueue",
+              "",
+              "override",
+              "true",
+              "delay",
+              "0.0",
+              "gate",
+              "0"
+            ]
+          }
+        ]
+      },
+      {
         "strName" : "Compartment",
         "fX"      : -6.0,
         "fY"      : 12.0,
         "fRotation" : 0.0,
-        "strID"     : "302c184a-695b-4889-8ed1-a47982fc3ba9"
+        "strID"     : "3bd1a383-712c-433d-93bd-3bd7687ae9a9"
       },
       {
         "strName" : "Compartment",
         "fX"      : 2.0,
         "fY"      : 10.0,
         "fRotation" : 0.0,
-        "strID"     : "35981dd8-3580-434f-ab35-f6d4b9f75ebc"
+        "strID"     : "45332100-fc39-4e55-806c-afefbe5de54e"
       },
       {
         "strName" : "Compartment",
         "fX"      : 6.0,
         "fY"      : 8.0,
         "fRotation" : 0.0,
-        "strID"     : "77a77467-dfb9-43fb-bdbc-ee03ae5f9ec1"
+        "strID"     : "209fc79f-e369-495d-965d-3954195171a4"
       },
       {
         "strName" : "Compartment",
         "fX"      : 12.0,
         "fY"      : 3.0,
         "fRotation" : 0.0,
-        "strID"     : "51a2cff2-4030-47a6-8922-b9271e76ba2d"
+        "strID"     : "1b32a0a6-c68c-4462-8a35-e8feef5451c7"
       },
       {
         "strName" : "Compartment",
         "fX"      : 7.0,
         "fY"      : -3.0,
         "fRotation" : 0.0,
-        "strID"     : "9ec273e1-0937-4a3e-81bf-bd4b89bfb94c"
+        "strID"     : "47f57b80-8f9f-43d8-9223-5b1f0828692c"
       }
     ],
     "aShallowPSpecs"   : [
@@ -9490,6 +9612,46 @@
             ]
           }
         ]
+      },
+      {
+        "strName" : "SysLootSpawnerNotBoarding",
+        "fX"      : 9.0,
+        "fY"      : 5.0,
+        "fRotation" : 0.0,
+        "strID"     : "3e23b8db-768a-4536-ac4f-2c667f810183",
+        "aGPMSettings" : [
+          {
+            "strName" : "Panel A",
+            "dictGUIPropMap" : [
+              "strGUIPrefab",
+              "GUILootSpawn",
+              "strFriendlyName",
+              "Loot Spawner",
+              "strGUIPrefabRight",
+              null,
+              "strGUIPrefabLeft",
+              null,
+              "strGUIPrefabUp",
+              null,
+              "strGUIPrefabDown",
+              null,
+              "strType",
+              "Pspec",
+              "strLoot",
+              "NotBoarding",
+              "strRange",
+              "0",
+              "strCount",
+              "0",
+              "strNew",
+              "True",
+              "strDamaged",
+              "True",
+              "strDerelict",
+              "True"
+            ]
+          }
+        ]
       }
     ],
     "vShipPos"         : {
@@ -9498,12 +9660,12 @@
     },
     "objSS"            : {
       "boPORShip" : "Sol",
-      "vPosx"     : -0.134165644986279,
-      "vPosy"     : -0.19574368939689,
+      "vPosx"     : 0.0062111420202833,
+      "vPosy"     : 0.00906200391335158,
       "vBOOffsetx" : 0.0,
       "vBOOffsety" : 0.0,
-      "vVelX"      : -0.00173963012777669,
-      "vVelY"      : -0.00253806873585008,
+      "vVelX"      : 0.000677822786717849,
+      "vVelY"      : 0.000988937053750047,
       "fPathLastEpoch" : 0.0,
       "vAccIn"         : {
         "x" : 0.0,
@@ -9518,70 +9680,34 @@
         "y" : 0.0
       },
       "aPathRecentT"   : [
-        65627498935.0364,
-        65627498933.0234,
-        65627498931.0164,
-        65627498929.0139,
-        65627498927.0072,
-        65627498925.0019,
-        65627498922.9884,
-        65627498920.9862,
-        65627498918.9772,
-        65627498916.9582,
-        65627498914.9494,
-        65627498912.9317,
-        65627498910.928,
-        65627498908.9103,
-        65627498906.8914,
-        65627498904.8777,
-        65627498902.8599,
-        65627498900.8413,
-        65627498898.8247,
-        65627498896.824
+        65627498868.4473,
+        65627498866.4428,
+        65627498864.4353,
+        65627498862.4271,
+        65627498860.416,
+        65627498858.4069,
+        65627498856.406,
+        65627498854.3977
       ],
       "aPathRecentX"   : [
-        -0.131108247464193,
-        -0.127605881079189,
-        -0.124113850534652,
-        -0.120630031151994,
-        -0.117139294180601,
-        -0.113650797177622,
-        -0.110148049823947,
-        -0.106664822489875,
-        -0.103170047498554,
-        -0.0996576580526856,
-        -0.0961629771609893,
-        -0.0926530181517329,
-        -0.0891672810344923,
-        -0.0856571318669624,
-        -0.0821449960624479,
-        -0.0786419893092244,
-        -0.0751318550958641,
-        -0.0716200861261948,
-        -0.0681119338658953,
-        -0.0646315993294165
+        0.00584123423621536,
+        0.0044825386472176,
+        0.00312183390046499,
+        0.00176059509308748,
+        0.000397351204299497,
+        -2.44103797830301E-05,
+        -6.27756668022104E-06,
+        -1.22571180862342E-07
       ],
       "aPathRecentY"   : [
-        -0.191283037135257,
-        -0.186173188506323,
-        -0.181078419561933,
-        -0.175995630459071,
-        -0.170902748799514,
-        -0.165813135187404,
-        -0.160702730736484,
-        -0.155620805414941,
-        -0.15052203240413,
-        -0.145397560426813,
-        -0.140298924704561,
-        -0.135177998662142,
-        -0.13009241164143,
-        -0.124971208163733,
-        -0.119847106241624,
-        -0.11473632333446,
-        -0.109615141674452,
-        -0.104491574953498,
-        -0.0993732849041946,
-        -0.0942955800885016
+        0.00852231194473733,
+        0.00653998789329474,
+        0.0045547324996348,
+        0.00256869791655967,
+        0.0005797379386177,
+        -3.56116152398523E-05,
+        -9.15816127694217E-06,
+        -1.78815523968264E-07
       ],
       "vAccLift"       : {
         "x" : 0.0,
@@ -9601,11 +9727,14 @@
       "bIsNoFees"      : true,
       "bGrounded"      : false,
       "size"           : 440,
-      "bIgnoreGrav"    : false
+      "bIgnoreGrav"    : false,
+      "fDockOffsetPosX" : 0.0,
+      "fDockOffsetPosY" : 0.0,
+      "fDockOffsetRot"  : 0.0
     },
     "aRooms"           : [
       {
-        "strID" : "302c184a-695b-4889-8ed1-a47982fc3ba9",
+        "strID" : "3bd1a383-712c-433d-93bd-3bd7687ae9a9",
         "bVoid" : true,
         "aTiles" : [
           0,
@@ -9858,6 +9987,7 @@
           786,
           812,
           838,
+          864,
           215,
           241,
           267,
@@ -9868,6 +9998,7 @@
           787,
           813,
           839,
+          865,
           242,
           268,
           294,
@@ -9878,6 +10009,7 @@
           788,
           814,
           840,
+          866,
           269,
           295,
           321,
@@ -9888,6 +10020,7 @@
           789,
           815,
           841,
+          867,
           296,
           322,
           348,
@@ -9898,6 +10031,7 @@
           790,
           816,
           842,
+          868,
           323,
           349,
           375,
@@ -9909,6 +10043,7 @@
           791,
           817,
           843,
+          869,
           350,
           376,
           402,
@@ -9919,118 +10054,132 @@
           792,
           818,
           844,
+          870,
           377,
           403,
           429,
           455,
           819,
           845,
+          871,
           404,
           430,
           456,
-          820,
           846,
+          872,
           431,
           457,
           483,
-          821,
           847,
+          873,
           458,
           484,
           510,
-          794,
-          822,
           848,
+          874,
           485,
           511,
           537,
-          795,
-          823,
+          821,
           849,
+          875,
           512,
           538,
-          796,
-          824,
+          822,
           850,
+          876,
           539,
           565,
-          797,
-          825,
+          823,
           851,
+          877,
           566,
           592,
-          798,
-          826,
+          824,
           852,
+          878,
           593,
           619,
-          827,
+          825,
           853,
+          879,
           620,
           646,
-          800,
-          828,
           854,
+          880,
           647,
           673,
-          773,
-          801,
-          829,
+          827,
           855,
+          881,
           674,
           672,
           700,
-          774,
-          802,
-          830,
+          800,
+          828,
           856,
+          882,
           701,
           671,
           699,
           727,
-          775,
-          803,
-          831,
+          773,
+          801,
+          829,
           857,
+          883,
           728,
           698,
           726,
           754,
-          776,
-          804,
-          832,
+          774,
+          802,
+          830,
           858,
+          884,
           755,
           725,
           753,
           781,
-          777,
-          805,
-          833,
+          775,
+          803,
+          831,
           859,
+          885,
           782,
           752,
           780,
           808,
-          778,
-          806,
-          834,
+          776,
+          804,
+          832,
           860,
+          886,
           809,
           751,
           779,
           807,
           835,
+          777,
+          805,
+          833,
           861,
+          887,
           836,
+          778,
+          806,
+          834,
           862,
-          863
+          888,
+          863,
+          889,
+          890
         ],
         "roomSpec" : "Blank",
-        "roomValue" : 17655.0
+        "roomValue" : 17693.0
       },
       {
-        "strID" : "35981dd8-3580-434f-ab35-f6d4b9f75ebc",
+        "strID" : "45332100-fc39-4e55-806c-afefbe5de54e",
         "bVoid" : false,
         "aTiles" : [
           62,
@@ -10054,7 +10203,7 @@
         "roomValue" : 124018.5
       },
       {
-        "strID" : "77a77467-dfb9-43fb-bdbc-ee03ae5f9ec1",
+        "strID" : "209fc79f-e369-495d-965d-3954195171a4",
         "bVoid" : false,
         "aTiles" : [
           120,
@@ -10152,10 +10301,10 @@
           442
         ],
         "roomSpec" : "BridgeArea",
-        "roomValue" : 120584.743727591
+        "roomValue" : 102924.896224737
       },
       {
-        "strID" : "51a2cff2-4030-47a6-8922-b9271e76ba2d",
+        "strID" : "1b32a0a6-c68c-4462-8a35-e8feef5451c7",
         "bVoid" : false,
         "aTiles" : [
           261,
@@ -10174,7 +10323,7 @@
         "roomValue" : 8668.79977035522
       },
       {
-        "strID" : "9ec273e1-0937-4a3e-81bf-bd4b89bfb94c",
+        "strID" : "47f57b80-8f9f-43d8-9223-5b1f0828692c",
         "bVoid" : false,
         "aTiles" : [
           418,
@@ -10316,6 +10465,7 @@
           685,
           713,
           741,
+          769,
           562,
           588,
           614,
@@ -10324,6 +10474,7 @@
           692,
           718,
           744,
+          770,
           544,
           572,
           600,
@@ -10332,18 +10483,21 @@
           684,
           712,
           740,
+          768,
           589,
           615,
           641,
           667,
           693,
           719,
+          771,
           571,
           599,
           627,
           655,
           683,
           711,
+          767,
           590,
           616,
           642,
@@ -10370,7 +10524,7 @@
           708
         ],
         "roomSpec" : "Reactor",
-        "roomValue" : 538951.060837625
+        "roomValue" : 520416.947090907
       }
     ],
     "DMGStatus"        : 0,
@@ -10391,8 +10545,8 @@
     "description"      : "An unsuccessful bid for security contracts by Ryokka, the TS-20b was intended to act as a long-range scout and patrol vessel. These ships have now found a new lease on life in the civlian sector as courier vessels.",
     "designation"      : "Courier",
     "publicName"       : "$TEMPLATE",
-    "dimensions"       : "8.64m x 10.24m",
-    "fShallowMass"     : 14758.85,
+    "dimensions"       : "8.64m x 10.56m",
+    "fShallowMass"     : 14879.35,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,
     "fShallowFusionRemain" : 9E99,
@@ -10409,7 +10563,7 @@
       "fab63ecc-c8d6-4400-ba7e-933f30584cf6"
     ],
     "bFusionTorch"          : false,
-    "strXPDR"               : "E-H8AP6",
+    "strXPDR"               : "O-KXQG",
     "bXPDRAntenna"          : true,
     "bShipHidden"           : false,
     "bIsUnderConstruction"  : false,
@@ -10422,7 +10576,7 @@
     "ShipType"              : 0,
     "nConstructionProgress" : 100,
     "nInitConstructionProgress" : 0,
-    "nRows"                     : 32,
+    "nRows"                     : 33,
     "nCols"                     : 27,
     "nGridRotation"             : 0,
     "bRemove"                   : false
