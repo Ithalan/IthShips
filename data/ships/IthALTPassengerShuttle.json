@@ -6888,6 +6888,8 @@
     "designation"      : "Passenger Shuttle",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "9.92m x 6.72m",
+    "fOverrideDerelictSpawnChance" : 0.035,
+    "fOverrideShipBrokerSpawnChance" : 0.05,
     "fShallowMass"     : 4968.35,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,

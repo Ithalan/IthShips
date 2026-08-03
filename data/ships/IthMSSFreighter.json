@@ -29989,6 +29989,8 @@
     "designation"      : "Freighter",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "12.80m x 21.44m",
+    "fOverrideDerelictSpawnChance" : 0.035,
+    "fOverrideShipBrokerSpawnChance" : 0.05,
     "fShallowMass"     : 35808.1848,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,

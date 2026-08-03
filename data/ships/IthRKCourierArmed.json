@@ -10862,6 +10862,8 @@
     "designation"      : "Patrol Vessel",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "8.64m x 10.56m",
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.01,
     "fShallowMass"     : 15168.35,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,

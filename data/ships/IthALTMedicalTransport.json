@@ -27617,6 +27617,8 @@
     "designation"      : "Medical Transport",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "13.12m x 18.24m",
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.01,
     "fShallowMass"     : 24172.35,
     "fShallowRCSRemass" : 3746.231982,
     "fShallowRCSRemassMax" : 3746.82347357627,

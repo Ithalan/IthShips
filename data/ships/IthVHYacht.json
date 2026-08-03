@@ -10154,6 +10154,8 @@
     "designation"      : "Pleasure Yacht",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "6.72m x 11.20m",
+    "fOverrideDerelictSpawnChance" : 0.035,
+    "fOverrideShipBrokerSpawnChance" : 0.15,
     "fShallowMass"     : 11057.2499999999,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,

@@ -17959,6 +17959,8 @@
       "87c4ab39-dbca-4b3a-b0d1-2eb8986ae8e3" : "CargoPodClimate",
       "9527a54e-cea3-403d-97e8-22094e718f86" : "CargoPodClimate"
     },
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.05,
     "fShallowMass"     : 17601.85,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,

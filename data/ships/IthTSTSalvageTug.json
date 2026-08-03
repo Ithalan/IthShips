@@ -7816,6 +7816,8 @@
     "designation"      : "Salvage Tug",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "8.00m x 8.96m",
+    "fOverrideDerelictSpawnChance" : 0.05,
+    "fOverrideShipBrokerSpawnChance" : 0.15,
     "fShallowMass"     : 7403.275,
     "fShallowRCSRemass" : 749.2463964,
     "fShallowRCSRemassMax" : 749.364694715254,

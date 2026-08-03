@@ -22652,6 +22652,8 @@
     "designation"      : "Pleasure Craft",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "9.28m x 19.52m",
+    "fOverrideDerelictSpawnChance" : 0.035,
+    "fOverrideShipBrokerSpawnChance" : 0.15,
     "fShallowMass"     : 28528.8500000003,
     "fShallowRCSRemass" : 5993.9711712,
     "fShallowRCSRemassMax" : 5994.91755772203,

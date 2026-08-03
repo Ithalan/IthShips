@@ -10465,6 +10465,8 @@
     "designation"      : "Cargo Tug",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "6.08m x 18.24m",
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.15,
     "fShallowMass"     : 9822.85,
     "fShallowRCSRemass" : 1498.4927928,
     "fShallowRCSRemassMax" : 1498.72938943051,

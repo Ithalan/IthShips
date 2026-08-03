@@ -28379,6 +28379,8 @@
     "designation"      : "Gunship",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "15.04m x 17.92m",
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.01,
     "fShallowMass"     : 29408.169,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,

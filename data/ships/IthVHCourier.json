@@ -17036,6 +17036,8 @@
     "designation"      : "Courier",
     "publicName"       : "$TEMPLATE",
     "dimensions"       : "9.28m x 15.68m",
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.05,
     "fShallowMass"     : 21742.7,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,

@@ -22680,6 +22680,8 @@
       "db35d53f-8323-4d18-9c62-32b243de61a2" : "CargoPodSpec",
       "3cb80aed-4d3f-4680-9337-110a60ebc72f" : "CargoPodSpec"
     },
+    "fOverrideDerelictSpawnChance" : 0.015,
+    "fOverrideShipBrokerSpawnChance" : 0.0,
     "fShallowMass"     : 25532.85,
     "fShallowRCSRemass" : 2996.9855856,
     "fShallowRCSRemassMax" : 2997.45877886102,
